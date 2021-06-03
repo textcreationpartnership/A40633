@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatise of grace and duty. By Francis Fuller. M.A.</title>
+            <author>Fuller, Francis, 1637?-1701.</author>
+         </titleStmt>
+         <extent>Approx. 111KB of XML-encoded text transcribed from 71 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A40633</idno><idno type="EEBO-CITATION">99826754</idno>
+  <idno type="VID">31160</idno>
+  <idno type="EEBO-PROQUEST">2248502056</idno>
+  
+            <idno type="STC">Wing F2387</idno>
+            <idno type="STC">ESTC R214648</idno>
+            <idno type="PROQUEST">99826754</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-99826754e"/>
+            <note>(EEBO-TCP ; phase 2, no. A40633)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 31160)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1829:32)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatise of grace and duty. By Francis Fuller. M.A.</title>
+                  <author>Fuller, Francis, 1637?-1701.</author>
+               </titleStmt>
+               <extent>[16], 118, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by John Richardson, for Thomas Parkhurst at the Bible and Three Crowns in Cheapside near Mercers Chappel,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1688.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>With a preliminary license to print.</note>
+                  <note>With a final advertisement leaf.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">Duty --  Early works to 1800.</term>
+               <term type="topical_term">Grace (Theology) --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-12 </date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-03 </date>
+            <label>Alexis (Ali) Jakobson </label>Sampled and proofread </change>
+         <change>
+            <date>2014-03 </date>
+            <label>Alexis (Ali) Jakobson</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:31160:1"/>
+            <pb facs="tcp:31160:1"/>
+            <p>A TREATISE OF GRACE AND DUTY.</p>
+            <p>By <hi>Francis Fuller.</hi> M. A.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>John Richardson,</hi> for <hi>Thomas Parkhurst</hi> at the <hi>Bible</hi> and <hi>Three Crowns</hi> in <hi>Cheapside</hi> near <hi>Mercers Chappel,</hi> 1688.</p>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:31160:2"/>
+            <p>
+               <figure>
+                  <q>FORTITER ET RECTE</q>
+                  <p>JAMES. F. FULLER.</p>
+                  <p>FSA.</p>
+                  <figDesc>bookplate of James F. Fuller</figDesc>
+               </figure>
+            </p>
+         </div>
+         <div type="license">
+            <pb facs="tcp:31160:2"/>
+            <pb facs="tcp:31160:3"/>
+            <pb facs="tcp:31160:3"/>
+            <pb facs="tcp:31160:4"/>
+            <p>Licensed,</p>
+            <closer>
+               <dateline>
+                  <date>Septemb. 7th. 1688.</date>
+               </dateline>
+            </closer>
+            <pb facs="tcp:31160:4"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:31160:5"/>
+            <pb facs="tcp:31160:5"/>
+            <head>To the Right HONOURABLE THOMAS LORD CREW.</head>
+            <opener>
+               <salute>My Lord,</salute>
+            </opener>
+            <p>THere are Two things that keep up Friendship be<g ref="char:EOLhyphen"/>twixt God and us, <hi>viz.</hi>
+               <pb facs="tcp:31160:6"/> The Receipt of Grace from him, and the Re<g ref="char:EOLhyphen"/>turn of Duty to him, and both, our Honour, as well as our Interest; Sin is a degradation, it pro<g ref="char:EOLhyphen"/>ved so to the Angels, and to us, (for we both lost our dignity, as well as our Purity by it) and to serve, is a kind of dimi<g ref="char:EOLhyphen"/>nution in its self, but Grace is an Honour, (the Honour that comes from God only) and so is his Service too. It is so in it self, (for, it is perfect
+<pb facs="tcp:31160:6"/> freedom) so to An<g ref="char:EOLhyphen"/>gels, (they are oftner called Angels, then Spi<g ref="char:EOLhyphen"/>rits, which is a Title of Office) so to all good Men, <hi>(David</hi> esteemed it above his Honour of being King of <hi>Israel)</hi> Yea it is so to God him<g ref="char:EOLhyphen"/>self, <hi>(viz.</hi> A Declarative, not an Essential Honour,) and therefore may well be esteemed so to us, and by us. An Honour, that no outward meanness can Eclipse, for, it carries
+<pb facs="tcp:31160:7"/> Glory with it, as the Ta<g ref="char:EOLhyphen"/>bernacle did, though co<g ref="char:EOLhyphen"/>vered with Badgers Skins, because the Ark was there. A greater Honour, then either to serve the greatest upon Earth, to be served by them, or rankt among them, yea a greater Ho<g ref="char:EOLhyphen"/>nour for God to say he is Honoured by it, then to Honour us for it.</p>
+            <pb facs="tcp:31160:7"/>
+            <p>
+               <hi>My Lord,</hi>
+            </p>
+            <p>Such Honour have all Gods Saints, such was the Ancient Honour of your Family, and such is yours, the greatest Ho<g ref="char:EOLhyphen"/>nour, that ever you had here, or can have; and that it may ever be so, that when you shall leave the fading Honour of this Transitory World, you may be crowned with Everlasting Honour in
+<pb facs="tcp:31160:8"/> the World to come, is the Constant and Sincere de<g ref="char:EOLhyphen"/>sire, of</p>
+            <closer>
+               <signed>Your Lordships most humble Servant, F. Fuller.</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:31160:8"/>
+            <head>THE EPISTLE TO THE READER.</head>
+            <p>
+               <hi>SOlomon</hi> sayes Wis<g ref="char:EOLhyphen"/>dom is the princi<g ref="char:EOLhyphen"/>pal thing, <hi>viz.</hi> Not
+<pb facs="tcp:31160:9"/> humane Wisdom but Divine; Wisdom ex<g ref="char:EOLhyphen"/>cells among all other Vertues, and this kind of Wisdom among all other kinds. That, when Sanctified, beautifies, but this Sanctifies that, and exalts a Saint above a Man, as that does a Man above a Beast, that will wither, but this will grow up to Glory. Of other things we may have too much, of this never enough,
+<pb facs="tcp:31160:9"/> if we desire no more, we have none, and if we seek not after it, we never desired it; if we have none, we shall lose our Crown, and if we seek not after more, we shall lessen it, in having it consists our safety, in encreasing in it our Comfort: That in the Truth of it, and this in the Degree.</p>
+            <p>Happy they then that so prize it, as to seek it, and so seek as
+<pb facs="tcp:31160:10"/> to find it, and when found, endeavour after a perfection in it.</p>
+            <closer>
+               <signed>F. Fuller.</signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:31160:10"/>
+            <head>The CONTENTS.</head>
+            <list>
+               <item>
+                  <hi>CHAP. I.</hi> Of the Nature of Grace. <hi>Page</hi> 1.</item>
+               <item>
+                  <hi>Chap. II.</hi> Of the Excellency of Grace. 26</item>
+               <item>
+                  <hi>Chap. III.</hi> Of Growth in Grace 31</item>
+               <item>
+                  <hi>Chap. IV.</hi> Of Quickning and Assisting Grace 36</item>
+               <item>
+                  <hi>Chap. V.</hi> Of Humility under Grace. 45</item>
+               <item>
+                  <hi>Chap. VI.</hi> Of the weak and small degrees of Grace 52</item>
+               <item>
+                  <hi>Chap. VII.</hi> The weak in Grace must not be discouraged under the small degrees of Grace, nor the strong in Grace de<g ref="char:EOLhyphen"/>spise the weak, but both go unto Christ, that they may receive of his fulness more abundant Grace 65</item>
+            </list>
+            <list>
+               <head>PART. II.</head>
+               <item>OF Duty 79</item>
+               <item>
+                  <hi>Chap. I.</hi> A regard must be had to the Principle, Rule, Manner, and End of Duty. 82</item>
+               <pb facs="tcp:31160:11"/>
+               <item>
+                  <hi>Chap. II.</hi> Obedience must be to every Duty Commanded. 87</item>
+               <item>
+                  <hi>Chap. III.</hi> Duty must be done though dan<g ref="char:EOLhyphen"/>ger attend it, and difficulty be in it. 89</item>
+               <item>
+                  <hi>Chap. IV.</hi> God must be sought in Duty. 94</item>
+               <item>
+                  <hi>Chap. V.</hi> Indisposition to Duty, and dead<g ref="char:EOLhyphen"/>ness in Duty must be avoided, but yet Duty must not be either neglected, or cast off for it. 97</item>
+               <item>
+                  <hi>Chap. VI.</hi> The heart must be concerned in every motion to Duty and in it. 101</item>
+               <item>
+                  <hi>Chap. VII.</hi> Duty must be continued in to the End 106</item>
+               <item>
+                  <hi>Chap. VIII.</hi> All merit by Duty must be disclaimed. 110</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="treatise">
+            <pb n="1" facs="tcp:31160:11"/>
+            <head>A TREATISE OF Grace <hi>and</hi> Duty.</head>
+            <div n="1" type="part">
+               <div n="1" type="chapter">
+                  <head>CHAP. I.</head>
+                  <argument>
+                     <p>Of the Nature of Grace.</p>
+                  </argument>
+                  <p>GRACE is taken either Actively, or Passively.</p>
+                  <p n="1">
+                     <label>(1.) <hi>Actively,</hi> viz.</label>
+                  </p>
+                  <p>For the free Love and Favour <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>
+                        <hi>gratia in<g ref="char:EOLhyphen"/>creata pro af<g ref="char:EOLhyphen"/>fectu.</hi> Eph. 2. 8. 2 Tim. 1. 9.</note> of God, whereby we are accep<g ref="char:EOLhyphen"/>ted in Christ, the first Spring and Fountain of all,</p>
+                  <p rend="italic indent">God's good Will to us.</p>
+                  <p n="2">
+                     <pb n="2" facs="tcp:31160:12"/>
+                     <label>(2.) <hi>Passively,</hi> viz.</label>
+                     <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>
+                        <hi>gra<g ref="char:EOLhyphen"/>tia creata pro ef<g ref="char:EOLhyphen"/>fectu,</hi> Rom. 6. 23.</note>
+                  </p>
+                  <p>For the Gifts of the Spirit, the Fruits of the First Grace, Streams flowing from that head Spring,</p>
+                  <p rend="italic indent">God's good Work in us.</p>
+                  <p>The first, is the Cause, the lat<g ref="char:EOLhyphen"/>ter, is the Effect, that, is without us, this, is within us, that, is an Attribute in God, this, a quality in us, in that, consists our Justifi<g ref="char:EOLhyphen"/>cation, in this, our Sanctification, by one, we are Sanctified, and made Holy, by the other, we are sav'd, and made happy.</p>
+                  <p rend="italic indent">Grace is the Tenure and Char<g ref="char:EOLhyphen"/>ter we hold Heaven by from God, yet it is as much Grace to fit us for Heaven, as to give us Heaven, as much Grace, and in some sense more, to give us Grace, then Glory.</p>
+                  <pb n="3" facs="tcp:31160:12"/>
+                  <p>There are two Expressions in Scripture (among all the rest) used by the Spirit, to set forth the Na<g ref="char:EOLhyphen"/>ture of Grace, <hi>viz.</hi> (1.) A New Creation. (2.) A New Birth.</p>
+                  <p n="1">
+                     <label>(1.) A New Creation.</label>
+                  </p>
+                  <p>Partly because the Being of a Saint lyes in it, All other things contribute nothing to the substan<g ref="char:EOLhyphen"/>tial part of a Saint, for, as <hi>Adam</hi> was but the Figure of a Man, be<g ref="char:EOLhyphen"/>fore Life was breathed into him, no more is he of a Saint, for he begins not to be, until new crea<g ref="char:EOLhyphen"/>ted, <note place="margin">2 Cor. 5. 17. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, 1 Cor. 1. 30.</note>
+                  </p>
+                  <p rend="italic indent">He does not only a little differ from himself, but as much as a Sheep from a Wolf, and a Lamb from a Lion.</p>
+                  <p>Partly, Because the New Crea<g ref="char:EOLhyphen"/>ture differs in a fundamental point from all other that are not of the same make, next to the making of
+<pb n="4" facs="tcp:31160:13"/> the Man Christ Jesus, never so much Glory appeared, as in this, not in <hi>Adam,</hi> nor in the Angels, for, he in Innocency never should have had, nor shall they ever have, such a near Union with Christ, as he has, and for ever shall have,</p>
+                  <p rend="italic indent">The New Creature is another <note place="margin">Eph. 2. 10. It is called God's work<g ref="char:EOLhyphen"/>manship; the Word signifies a Master-piece, the utmost of skill, a work, that cannot be easily excee<g ref="char:EOLhyphen"/>ded.</note> manner of Creature, then what was ever in the World before, among all the sorts that God made such a one as was never made, nor seen before, nor ne<g ref="char:EOLhyphen"/>ver should have been, had not God determined to give Christ to the World,</p>
+                  <p>Partly, Because where Grace appears, it makes such a change, as if it was not the same Creature, but of a different kind,</p>
+                  <p rend="italic indent">Nothing makes one Man differ from another so much, as Grace,</p>
+                  <pb n="5" facs="tcp:31160:13"/>
+                  <p>Partly, Because where one Grace is given, all are given.</p>
+                  <p>A Creature is a compound Be<g ref="char:EOLhyphen"/>ing, and so is the New Creature too, a Picture represents not only the substantial part, but every Feature, and the New Creature, the lineaments of every Grace (Grace for Grace) in Christ, though in a low, and poor mea<g ref="char:EOLhyphen"/>sure.</p>
+                  <p rend="italic indent">The common Gifts of the Spirit, <note place="margin">1 Cor. 13. 8, 9.</note> (Gifts of Edification) are gi<g ref="char:EOLhyphen"/>ven distributively, some to one, and some to another, none have all, but every one his pro<g ref="char:EOLhyphen"/>per gift, but the special and sa<g ref="char:EOLhyphen"/>ving gifts (gifts for Sanctifica<g ref="char:EOLhyphen"/>tion) are all given not to one, Holiness, and to another, Faith, but to every one all, none are given, unless all are given,</p>
+                  <p>Partly, To show the difference betwixt the first Creation and this:</p>
+                  <pb n="6" facs="tcp:31160:14"/>
+                  <p>The first Creation was a Work of Infinite Power and Wisdom, and this second Creation is a new addition of that Power and Wis<g ref="char:EOLhyphen"/>dom that appeared in making the World, for, God in this work makes (as it were) a new World; and a new one might have been easier made: for, though the diffe<g ref="char:EOLhyphen"/>rence betwixt something and no<g ref="char:EOLhyphen"/>thing in the first Creation, was one of the greatest difficulties the Philosophers ever met with to re<g ref="char:EOLhyphen"/>concile, yet here, are more, and greater, for, in the first Creation, there was but one difficulty, <hi>viz.</hi> nothing to assist, but in this, there are two, <hi>viz.</hi> not only nothing to help, and assist, but something to resist,</p>
+                  <p n="1">(1.) In this, there is the same that was in the first Creation, <hi>viz.</hi> nothing to help.</p>
+                  <p>In the first Creation, God made <note place="margin">Ex nihilo simpli<g ref="char:EOLhyphen"/>citer, vel secun<g ref="char:EOLhyphen"/>dum quid.</note> all out of nothing, <hi>(viz.</hi> either simply nothing, as the first matter created was, or that, which was
+<pb n="7" facs="tcp:31160:14"/> no way dispos'd to the production of such forms, as that matter was in respect of the things created out of it) there was not so much as a Stick, or Stone found to his hand, in raising the great Fabrick of the World, no preexistent matter, to help on such a produ<g ref="char:EOLhyphen"/>ction, and no less, in this second Creation, <hi>viz.</hi> no good thing in us by Nature, either to enable, or dispose to it, not so much as a good Thought or Desire of ours, nothing in the understanding, to comply with Spiritual Truth, nor in the Will, to delight in Spiritual <note place="margin">Rom. 7. 18.</note> Good, nor any thing in us, to move God to it.</p>
+                  <p rend="italic indent">The first Creation was a voluntary act, there was no deserving Cause of it, and so is the se<g ref="char:EOLhyphen"/>cond Creation too, for, there was not any thing in us, either to move God to it, or assist him in it, it was not deduced from us, but freely bestowed on us.</p>
+                  <p n="2">
+                     <pb n="8" facs="tcp:31160:15"/>(2.) In this, there is more than was in the first Creation, <hi>viz.</hi> something to resist,</p>
+                  <p>In the first Creation, there was nothing to help, nor resist, but in this, there is something to resist, and therefore the greater work of the two, in regard of the opposition God meets with, first to conquer aed subdue, <hi>(viz.</hi> the enmity in our minds) before he can go to work, and to pull down, <hi>(viz.</hi> our high Thoughts and Imaginations) before he can build the bestowing of new qua<g ref="char:EOLhyphen"/>lities, is no more indeed than the first Creation, but the changing of the will is more, for, the will (which is the utmost strength of the Soul) resists, and opposes it (how often would I but ye would <note place="margin">Matth. 23.</note> not?) Yea, something from the Devil to resist, (who does all he can, either to hinder the concep<g ref="char:EOLhyphen"/>tion of Grace; stifle it in the Birth, or obstruct the growth, and in<g ref="char:EOLhyphen"/>crease
+<pb n="9" facs="tcp:31160:15"/> of it) yea there is something in God himself, once seemed to resist, <hi>viz.</hi> his Justice and Mercy to resist each other,</p>
+                  <p rend="italic indent">Though the Creatures never pro<g ref="char:EOLhyphen"/>vokt God, not to create them, yet we have, not to renew, and save us,</p>
+                  <p n="2">
+                     <label>(2.) A New Birth.</label>
+                  </p>
+                  <p rend="indent">Partly to show, <note place="margin">John 3. 3.</note>
+                  </p>
+                  <p n="1">(1.) The great defilement of our Nature by Sin, being under the pollution, as well as the impu<g ref="char:EOLhyphen"/>tation of <hi>Adam</hi>'s Sin, so fixt, and riveted, that nothing but a new Birth can remove it, nor that to<g ref="char:EOLhyphen"/>tally here, for,</p>
+                  <p rend="italic indent">As it comes in by the first Birth, so it is but in part removed by the second</p>
+                  <p n="2">(2.) The secret manner of the Work.</p>
+                  <pb n="10" facs="tcp:31160:16"/>
+                  <p>The way of the Natural Birth is mysterious, but much more the Spiritual, the effects of it are ap<g ref="char:EOLhyphen"/>parent, (as Light out of Darkness, <note place="margin">Eccles. 11. 5. John 3. 7, 8. Psal. 139. 14, 15, 16. <hi>Motum scimus modum nescimus.</hi>
+                     </note> and Life out of Death) but the Nature and Manner of working are supernatural, and incompre<g ref="char:EOLhyphen"/>hensible,</p>
+                  <p rend="italic indent">We may say of all the Members of the new Man, as <hi>David</hi> of the Members of his Body, they are curiously wrought, fearfully, and wonderfully made.</p>
+                  <p n="3">(3.) The pangs and throes (that more, or less) are felt in the work.</p>
+                  <p>Sick fits, and sharp throes (not in all alike, but in all some,) ac<g ref="char:EOLhyphen"/>company the Natural Birth, and no less the Spiritual. <note place="margin">Psalm 88. 1. <hi>ad</hi> 9. Hosea 13. 13. <hi>ad</hi> 19.</note>
+                  </p>
+                  <p rend="italic indent">Sore travel and hard labour, for there is no change contrary to Nature without pain and dif<g ref="char:EOLhyphen"/>ficulty.</p>
+                  <p n="4">
+                     <pb n="11" facs="tcp:31160:16"/>(4.) The necessity of a New Birth.</p>
+                  <p>Every Creature of Life, has a principle to act by, supernatural Actions are such, as Nature never did, nor can do, there must be therefore a new principle given to enable them, for the Principle, and Actions are ever alike.</p>
+                  <p rend="italic indent">Water may be forct, but it natu<g ref="char:EOLhyphen"/>rally rises no higher than its spring.</p>
+                  <p n="5">(5.) The small beginnings of Grace, and the gradual procee<g ref="char:EOLhyphen"/>ding of it.</p>
+                  <p>We are not born Men, but Babes in Nature, and so we are in Grace too.</p>
+                  <p rend="italic indent">The New Man is born at once, <note place="margin">Philip. 3. 11.</note> but grows up by degrees, to his fulness of stature in Christ.</p>
+                  <p n="6">
+                     <pb n="12" facs="tcp:31160:17"/>(6.) Our inability to it.</p>
+                  <p>We are not born of Blood, (neither Ancient, nor Honoura<g ref="char:EOLhyphen"/>ble) nor of Flesh, (as the Natu<g ref="char:EOLhyphen"/>ral <note place="margin">John 1.</note> Birth is) nor of our own Will, but of God, for, being dead in <note place="margin">1 John 3. 9.</note> Sin, we can no more form our selves in Grace, than in Nature, nor any more give Life to our Souls, than we can to our Bodies.</p>
+                  <p rend="italic indent">The Act is ours, but the Power that enables to it, is God's.</p>
+                  <p n="7">(7.) And partly to distinguish betwixt this, and the Natural Birth, and to shew the excellency of this, above that.</p>
+                  <p>We are as much a new upon a principle of Grace, as the New born Child that never saw the Light before, and as we have a distinguishing principle as we are Men, that is the foundation of our Manhood, so we have a principle of Life as we are Christians, that depends, not on the Union of the
+<pb n="13" facs="tcp:31160:17"/> Soul and Body, but of Christ and the Soul, which is not only ano<g ref="char:EOLhyphen"/>ther Life than that of Nature, for degree, but for kind too, specifi<g ref="char:EOLhyphen"/>cally differing, as the Life of Reason specifically differs from the Life of Sense.</p>
+                  <p rend="italic indent">They that are new born, are best <note place="margin">Acts 7. 11. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. 1 John 3. 9. 1 John 12. Col. 1. 18. Rev. 2. 17. Gen. 41. 38. 1 Pet. 4. 14. Esay 61. 10. 54. 13. Rev. 19. 18. Psal. 45. 13, 14. Matth. 8. 10. Heb. 1. <hi>ult.</hi> 1 John 1. 3. 1 Pet. 1. 4.</note> born, they are best descended, (for, they are born of God) best allied (God is their Fa<g ref="char:EOLhyphen"/>ther, and Christ the first born, their elder Brother) best na<g ref="char:EOLhyphen"/>med, (they have a new Name) best spirited, (a Spirit of Glo<g ref="char:EOLhyphen"/>ry rests upon them) best fed (they eat the hidden Manna) best taught, (they are all taught of God) best clothed (arrayed in fine Linnen, clean and white) best attended, (a guard of An<g ref="char:EOLhyphen"/>gels is continually about them) best employ'd,) their fellowship is with the Father, and the Son) and shall at last have the best Inheritance, for, it is in<g ref="char:EOLhyphen"/>corruptible,
+<pb n="14" facs="tcp:31160:18"/> undefiled, and re<g ref="char:EOLhyphen"/>served in Heaven for them.</p>
+                  <p>So that it is a real, supernatu<g ref="char:EOLhyphen"/>ral, and universal change, wrought in the Soul, or a new quality infus'd, after God's own Image.</p>
+                  <p n="1">
+                     <label>(1.) A Change.</label>
+                  </p>
+                  <p>Morality does but polish, but Grace changes.</p>
+                  <p rend="italic indent">This my Son was dead, but is <note place="margin">Luke 15. 24.</note> alive.</p>
+                  <p n="2">
+                     <label>(2.) A real Change.</label>
+                  </p>
+                  <p>Not a relative change, but a real one, not of our State, (for, that is in Justification) but of our Qualities, not of our Actions on<g ref="char:EOLhyphen"/>ly, but of our Nature, for new Actions may be, where there is no new Nature,</p>
+                  <p rend="italic indent">Christ by taking our Nature be<g ref="char:EOLhyphen"/>came Man, and we new Men
+<pb n="15" facs="tcp:31160:18"/> by partaking of his, he by the hypostatical Ʋnion, became Flesh of our Flesh, and we by the Mystical, are Spiritual of his Spirit.</p>
+                  <p n="3">
+                     <label>(3.) A Supernatural Change.</label>
+                  </p>
+                  <p>We are the Subjects, and the Word, is the usual, and ordina<g ref="char:EOLhyphen"/>ry though not the only Instrument of it, but the Spirit, is the Effici<g ref="char:EOLhyphen"/>ent, it is not only the Witness, but the Worker of it.</p>
+                  <p rend="italic indent">A Spirit of Grace, not only as the <note place="margin">Gal. 4. 19. James 1. 18, 21. John 3. 5. 1 Cor. 6. 11. Zech. 12. 10.</note> gift of Grace, but as the Au<g ref="char:EOLhyphen"/>thor of it.</p>
+                  <p n="4">
+                     <label>(4.) A Ʋniversal Change.</label>
+                  </p>
+                  <p>Not Partial, but Universal, (all things are become new) <hi>viz.</hi> in the whole Man, inward, and outward, Soul, and Body.</p>
+                  <p n="1">(1.) In the Soul, <hi>viz.</hi> the up<g ref="char:EOLhyphen"/>per, and lower Region, in the un<g ref="char:EOLhyphen"/>derstanding there is Light, (God
+<pb n="16" facs="tcp:31160:19"/> began with Light in the first Crea<g ref="char:EOLhyphen"/>tion, and so he does in the second) in the Will, chearfulness and rea<g ref="char:EOLhyphen"/>diness in its conformity to the Di<g ref="char:EOLhyphen"/>vine Will, either by doing, or suffering, in the Affections, Or<g ref="char:EOLhyphen"/>der, (they center upon the right Object) in the Conscience, ten<g ref="char:EOLhyphen"/>derness, and faithfulness (it pro<g ref="char:EOLhyphen"/>ceeds according to Truth, though against it self) and in the Heart, sincerity and uprightness.</p>
+                  <p rend="italic indent">Original Sin is a Ʋniversal Prin<g ref="char:EOLhyphen"/>ciple, <note place="margin">Totum hominem etsi non totaliter.</note> that sours the whole lump of our Nature, and sanctifying Grace is a Ʋniversal Princi<g ref="char:EOLhyphen"/>ple that seasons the whole Man, for, it comes into the Soul, as Light into the Air and Life into the Body.</p>
+                  <p n="2">(2.) In the Body.</p>
+                  <p>The Soul indeed is the most proper Subject of Sin, but yet it has a Being in the Members of the Body, as the Instruments of it,
+<pb n="17" facs="tcp:31160:19"/> our Bodies by Nature are corrupt, as well as our Souls, they are vile Bodies, not more in respect of Natural, than Moral defilement, nor more in regard of Subjection to Death, then Sin: for, there are not more Sinews, and Arteries, than there are Seeds of Sin in them, nor any Members of them, but as Instruments work in the Service of it, to iniquity unto iniquity, <hi>viz.</hi> from one sin to another, both as to kind, and degree: but where Grace comes, it makes a thorough change in both, <hi>viz.</hi> in the Soul as to its Faculties, and in the Body as to its Members, in them, as to their qualities, in these, as to their use, so that they are (as in equity they should be) as much employ<g ref="char:EOLhyphen"/>ed for God, as they were against him,</p>
+                  <p rend="italic indent">The Fountain and Streams are <note place="margin">Rom. 6. 19.</note> inseparable, and so is the new Heart, and new Life.</p>
+                  <pb n="18" facs="tcp:31160:20"/>
+                  <p>Or a new quality infused after Gods own Image.</p>
+                  <p>A new Quality.</p>
+                  <p>When a Musical instrument is put in tune, the substance of the instrument is the same, the Organs <hi>(viz.</hi> The strings) are the same, and make a sound, the faculties of the instruments are the same, but not the qualities, the sound re<g ref="char:EOLhyphen"/>mains, but the jar, and dispropor<g ref="char:EOLhyphen"/>tion of the sound is remov'd, so when the Soul is by Grace renew<g ref="char:EOLhyphen"/>ed, that, and the faculties of it are the same, that they were, <hi>viz.</hi> As to substance, but not as to qualifi<g ref="char:EOLhyphen"/>cation, they are not remov'd, but renewed: the old things are sEt to a new tune, and nothing more is re<g ref="char:EOLhyphen"/>quisite, for,</p>
+                  <p rend="italic indent">There is no need of new faculties in a state of glory, much less in a state of grace.</p>
+                  <p>A new quality after Gods own Image.</p>
+                  <pb n="19" facs="tcp:31160:20"/>
+                  <p>
+                     <hi>Adam</hi> was made in the Image of <note place="margin">Gen. 1. 26, 27. Rom. 3. 23. Eph. 4. 24. Col. 3. 10.</note> God, from it he (and we in him) fell by sin, and to it we are again restored by Grace, being created after God, that is, like for like, just according to his Image, in such an exact proportion as we are a<g ref="char:EOLhyphen"/>ble to bear.</p>
+                  <p rend="italic indent">Holy as he is Holy, <hi>viz.</hi> To qua<g ref="char:EOLhyphen"/>lity <note place="margin">1 Pet. 1. 15.</note> and likeness, though not as to equality, and proportion.</p>
+                  <p>By all which it plainly appears, that there are six things imply'd in, <hi>viz.</hi> The integrity of a sanctified heart, a power, as well as a form, integrality of Obedience, confor<g ref="char:EOLhyphen"/>mity to the Divine pattern, a con<g ref="char:EOLhyphen"/>stancy in well-doing, and a doing all to the glory of God.</p>
+                  <p n="1">(1.) The integrity of a sancti<g ref="char:EOLhyphen"/>fied heart.</p>
+                  <p>It is not a thing of speculation, but renovation, not a disguise, or
+<pb n="20" facs="tcp:31160:21"/> thing in appearance only, but in reality, soundness at the root, truth in the inward parts, no a<g ref="char:EOLhyphen"/>dulterate, <note place="margin">Rom. 2. 28. Psal. 45. 13.</note> but current Coin, for, the Metal and Stamp are both good, the outside and inside, and its glory (like that of the Kings <note place="margin">Matth. 7. 15.</note> daughter) is within (the hidden man of the heart) as well as with<g ref="char:EOLhyphen"/>out, and best within, the out<g ref="char:EOLhyphen"/>ward Clothing is glorious, and so is the inward (the Sheeps body as well as the skin) and the more in<g ref="char:EOLhyphen"/>ward, the finer, like <hi>Solomons</hi> Temple, that was glorious with<g ref="char:EOLhyphen"/>in, and most glorious in the Ho<g ref="char:EOLhyphen"/>ly of Holies,</p>
+                  <p rend="italic indent">God looks for a Christians name not in his face, but heart, and there it is, for his heart points to heaven, as well as his face.</p>
+                  <p n="2">(2.) A power, as well as a form.</p>
+                  <p>In Evil, practice goes before profession, in good, profession
+<pb n="21" facs="tcp:31160:21"/> goes often before practise, but Grace leads to action, as well as profession, the Stoicks spake good things, but did those that were evil; the <hi>Athenians</hi> (as the old Man in the Theatre told them,) knew what was to be done, but did it not, but Grace leads to both, for, as it is in being, so it is in operati<g ref="char:EOLhyphen"/>on, where there is fire, there will <note place="margin">1 Cor. 4. 20. 2 Tim. 3. 5. Isa. 48. 12. Jer. 32. 40. Mat. 23. 27, 28. Col. 2. 6. &amp; 3. 1. Rev. 3. 9.</note> be heat, and supernatural actions, where there is a supernatural life, for, the actions and life are ever alike,</p>
+                  <p rend="italic indent">It is a contradiction to be good, and not to do so.</p>
+                  <p n="3">(3.) Integrality of Obedience.</p>
+                  <p>Hypocrisie breaks the two Ta<g ref="char:EOLhyphen"/>bles, <note place="margin">Non est religio, sed dissimulatio, quae per omnia non constat sibi.</note> divides the Commands, but Grace appears (as <hi>Moses)</hi> with both Tables in its hand, and teaches Obedience to them, <hi>viz.</hi> Holiness towards God, as well as Righte<g ref="char:EOLhyphen"/>ousness towards man, and Righte<g ref="char:EOLhyphen"/>ousness
+<pb n="22" facs="tcp:31160:22"/> towards Man as well as Ho<g ref="char:EOLhyphen"/>liness towards God, Holiness is <note place="margin">Sanctitas est ju<g ref="char:EOLhyphen"/>stitia erga deum, justitia est san<g ref="char:EOLhyphen"/>ctitas erga ho<g ref="char:EOLhyphen"/>minem.</note> Righteousness towards God; Righteousness is Holiness towards Man, that without Righteousness is Hypocrisie, this, without Holi<g ref="char:EOLhyphen"/>ness is Paganism, neither of them alone is enough; we are both or nothing; for the second Table is like to the first, and the tryal of our Obedience to it,</p>
+                  <p rend="italic indent">If we are but almost Holy, we <note place="margin">Psal. 119. 101. Luke 1. 6.</note> are ungodly.</p>
+                  <p n="4">(4.) A conformity to the Di<g ref="char:EOLhyphen"/>vine pattern,</p>
+                  <p>Some actions of Christ were na<g ref="char:EOLhyphen"/>tural, <note place="margin">1 John 2. 6.</note> and some of special favour, <note place="margin">Col. 2. 6.</note> some were circumstantial and in<g ref="char:EOLhyphen"/>different, and some of Divine pre<g ref="char:EOLhyphen"/>rogative; some were Moral, and some Divine; some of these are matter of Love and Observation, some of Adoration, and some of Imitation; some things he did as God, some as Man, and some as both
+<pb n="23" facs="tcp:31160:22"/> God and Man; some things he did not that we may, and some he could not do that we must, some things he did that we cannot, and some that we must not, and some things that we both may and must, equalize them we cannot, but imi<g ref="char:EOLhyphen"/>tate them we must; and Grace naturally leads to it, for it looks to Christ as a tree of Life, as well as of Knowledge, and when it can<g ref="char:EOLhyphen"/>not have his pattern for what it does, it will at all times be sure of his allowance, for</p>
+                  <p rend="italic indent">It is ever, either a conquerer over sin, or a combater with it.</p>
+                  <p n="5">(5.) A Constancy in well-doing.</p>
+                  <p>Waters that have no fountain <note place="margin">Ezek. 10. 10. <hi>Rota intra ro<g ref="char:EOLhyphen"/>tam, velnti vita intra vitam, de<g ref="char:EOLhyphen"/>signans quod san<g ref="char:EOLhyphen"/>ctus sibi vitâ non dissonet.</hi> Ambr.</note> to feed them soon dry up, paint<g ref="char:EOLhyphen"/>ed beauties quickly fade, mixed bodies soon corrupt, and what in Religion begins in Hypocrisie, will end in Apostasie, but what be<g ref="char:EOLhyphen"/>gins
+<pb n="24" facs="tcp:31160:23"/> in sincerity will abide, for it is the nature of Grace to bring all its works to perfection, perfection is its pattern, and it is (as the stone betwixt the Center and the Cir<g ref="char:EOLhyphen"/>cumference) ever in motion to it,</p>
+                  <p rend="italic indent">Religion is our Rule, and that is ever the same, and so must our Actions be.</p>
+                  <p n="6">(6.) A doing all to the Glory of God.</p>
+                  <p>All Creatures though never so despicable, even those of a lower, as well as of a higher rank Glori<g ref="char:EOLhyphen"/>fie <note place="margin">Psal. 148. 1. ad 11.</note> God, either subjectively, or objectively, and either passively or actively, God will be glorified by all passively, so the damned in Hell do, and wicked Men some<g ref="char:EOLhyphen"/>times on Earth, but actively none do it but in a way of Holiness; one or the other he will have from us, for though he gives Grace to us, yet glory is a peculiar Royalty <note place="margin">Isai 42. 8.</note>
+                     <pb n="25" facs="tcp:31160:23"/> that he keeps to himself, and he will be glorified either by us or upon us, be our head or make us his Footstool, all his actions are circular, they begin and end in himself, and he would not be God if in all, he did not seek his glory, nor can we be said to have any Grace, unless we do so too, for <note place="margin">Actiones Dei sunt optimae, quia in seipso consistant.</note> Grace is Holiness to the Lord, a Law of Life, and a Divine power over-ruling all for God, opposite to the Law of Sin, that is against him, its principle is from God, and its main design for him as rea<g ref="char:EOLhyphen"/>dy to every work, and impartial, and alike to all.</p>
+                  <p rend="italic indent">Every man for himself, is a prin<g ref="char:EOLhyphen"/>ciple <note place="margin">Rom. 8. 2. 1 Thes. 2. 12.</note> of Atheism.</p>
+               </div>
+               <div n="2" type="chapter">
+                  <pb n="26" facs="tcp:31160:24"/>
+                  <head>CHAP. II.</head>
+                  <argument>
+                     <p>Of the Excellency of Grace.</p>
+                  </argument>
+                  <p>GLory is the highest thing in Heaven, Grace the best thing on Earth, the true Riches, the one thing needful, the best gift, Gods Image, our earnest for Heaven, that which both se<g ref="char:EOLhyphen"/>cures <note place="margin">1 Cor. 12. 31.</note> it, and prepares for it, and therefore should above all things be sought after, for it makes us like to God, evidences our right <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>.</note> to Heaven, and makes us meet for it.</p>
+                  <p n="1">1. It makes us like to God.</p>
+                  <p>It is called the Divine Nature, <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, Clem. Alex. 2 Pet. 1. 4.</note> not as a particle of it but as a re<g ref="char:EOLhyphen"/>presentation only; in us it is a qua<g ref="char:EOLhyphen"/>lity
+<pb n="27" facs="tcp:31160:24"/> but in God, it is his Nature, essential to him; and though <note place="margin">Non <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> sed <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, naturae no<g ref="char:EOLhyphen"/>men non substan<g ref="char:EOLhyphen"/>tiam sed quali<g ref="char:EOLhyphen"/>tatem designat. <hi>Calvin.</hi> Magnus sine quantitate san<g ref="char:EOLhyphen"/>ctus sine qua<g ref="char:EOLhyphen"/>litate.</note> transcendently in him yet may be formally in us, not by transubstan<g ref="char:EOLhyphen"/>tiating our nature into the Divine Essence, but by transforming it into the Divine likeness. Not by a Communication of the Divine Essence, (for that is incommuni<g ref="char:EOLhyphen"/>cable) but by a participation of the Divine Grace, so far as the Image of what is infinite is expres<g ref="char:EOLhyphen"/>sible in a limited being, and the more we have, the more perfect we are, and the more connatural to him.</p>
+                  <p rend="italic indent">As the Angels who are therefore the most perfect Creatures, be<g ref="char:EOLhyphen"/>cause the most like to God.</p>
+                  <p n="2">(2.) It Evidences our Right to Heaven.</p>
+                  <p>Effects are more known then their cause, streams are seen when their spring is not, the beams of
+<pb n="28" facs="tcp:31160:25"/> the Sun (by looking to the West) are seen before the body, the Life of a Tree is better known by its Fruits then Root, and our Electi<g ref="char:EOLhyphen"/>on and Justification, best by our Sanctification; Gods work with<g ref="char:EOLhyphen"/>out us, and his good will to us, by that his good work in us, They are first, but they are seen first in <note place="margin">Non causa rei, sed cognitionis.</note> this, it is not the cause of Election but the Fruit; nor the foundati<g ref="char:EOLhyphen"/>on of Justification but the Evi<g ref="char:EOLhyphen"/>dence, Justification promotes San<g ref="char:EOLhyphen"/>ctification, Sanctification assures Justification, and Justification, Glorification (whom he justifies <note place="margin">Rom. 8. 30.</note> them he glorifies) our Title to Hea<g ref="char:EOLhyphen"/>ven is from that, but the evidence of that Title is from this, and a bet<g ref="char:EOLhyphen"/>ter evidence of our Title to it, then if all the Angels in Heaven should come down to tell us so, for it is Heaven begun, Heaven in a degree, Heaven in a lower dispen<g ref="char:EOLhyphen"/>sation, the Kingdom of God with<g ref="char:EOLhyphen"/>in us, that entitles us to the King<g ref="char:EOLhyphen"/>dom without us, Heaven come
+<pb n="29" facs="tcp:31160:25"/> down, and entred into us, that assures our Ascension and entrance into Heaven, the earnest of hea<g ref="char:EOLhyphen"/>ven, not a pawn, for a pawn is of a<g ref="char:EOLhyphen"/>nother kind and may be called in, but an earnest is of the same kind, and shall certainly be made up.</p>
+                  <p rend="italic indent">The first-fruits to show how good, and an earnest to show how sure it is.</p>
+                  <p n="3">(3.) It makes us meet for Heaven.</p>
+                  <p>The Life of grace and glory is but one, differing not specifically but gradually, as a part from the whole; for grace is glory in the spark, and glory is grace in the <note place="margin">Gratia est aetas infantilis gloriae.</note> flame; that glory imperfect, this grace consummate; that the be<g ref="char:EOLhyphen"/>ginning of glory, this the perfecti<g ref="char:EOLhyphen"/>on of grace; we go from one glo<g ref="char:EOLhyphen"/>ry to another (from glory to glo<g ref="char:EOLhyphen"/>ry,) <hi>viz.</hi> From grace which is <note place="margin">2 Cor. 3. 18.</note> imperfect glory, to that which is
+<pb n="30" facs="tcp:31160:26"/> perfect, and from one heaven to another, <hi>viz.</hi> from a heavenly con<g ref="char:EOLhyphen"/>versation to a habitation that is heavenly, so that we our selves must be sanctified if we expect an inheritance among them that are so; be partakers of the Divine Nature if we would injoy the Di<g ref="char:EOLhyphen"/>vine presence, and be first made like to God before we can be made happy by him; for should he in his Soveraignty dispense with it yet he could not in a moral way make us happy without it, for the nature of the thing would not permit it; for if sutableness makes happiness, then the more there was of Divine approach un<g ref="char:EOLhyphen"/>to us there, the more miserable and not the more happy we should be.</p>
+                  <p rend="italic indent">The Type of Heaven could not endure uncleanness, much less then will Heaven endure it.</p>
+               </div>
+               <div n="3" type="chapter">
+                  <pb n="31" facs="tcp:31160:26"/>
+                  <head>CHAP. III.</head>
+                  <argument>
+                     <p>Of Growth in Grace.</p>
+                  </argument>
+                  <p>THE weak and strong in grace must both grow in grace; the weak that they may be strong, and the strong that they may be stronger, and both that they may be filled with <note place="margin">Eph. 3. 19.</note> all the fulness of God.</p>
+                  <p>The weak, that they may be strong.</p>
+                  <p>They must not content them<g ref="char:EOLhyphen"/>selves with their small beginnings, to be always as new set Plants, and smoaking flax, nor ever spelling but be thriving, blowing up the spark into a flame, and going on
+<pb n="32" facs="tcp:31160:27"/> to perfection, leaving the princi<g ref="char:EOLhyphen"/>ples of the Doctrine of Christ <hi>(procedendo a principiis)</hi> as a Child leaves spelling in coming to Read<g ref="char:EOLhyphen"/>ing, or the Artificer leaves the Foundation in a Building adding the superstructure to it. <note place="margin">Heb. 6. 1.</note>
+                  </p>
+                  <p rend="italic indent">The Time past may suffice for sin, but not for Grace.</p>
+                  <p>The strong, that they may be stronger.</p>
+                  <p>They must not think that they have already attained, but forget<g ref="char:EOLhyphen"/>ting those things which are behind reach forth to those things which are before, that they may be per<g ref="char:EOLhyphen"/>fecting, though not perfected.</p>
+                  <p rend="italic indent">In Heaven they go into perfection, <note place="margin">Sunt viatores, non comprehenso<g ref="char:EOLhyphen"/>res, in viâ non in termino. <hi>Phil. 3. 12, 13. Eph. 4. 12. 2 Pet 3. 18. and</hi> 1. 5, 8.</note> on Earth they must go on to it.</p>
+                  <p n="1">(1.) To this they are called,</p>
+                  <p>They are commanded to grow in Grace, not only adding to faith
+<pb n="33" facs="tcp:31160:27"/> vertue, but to their faith, faith; and to their vertue, vertue; that not only every grace may be in them, but that every grace in them may abound, and that they may be not only Holy, but still <note place="margin">Rev. 22. 11. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, Notes Augmentation as well as Con<g ref="char:EOLhyphen"/>tinuation. 2 Thess. 3. 10. 4. 1. Phil. 1. 11. Eph. 1. 18. Gal. 5. 12.</note>
+                     <hi>(viz.</hi> more) Holy.</p>
+                  <p rend="italic indent">It is a cursed satiety to be so fill'd with the Graces of the Spirit, as to think we have enough, or to desire no more.</p>
+                  <p n="2">(2.) For this means are ap<g ref="char:EOLhyphen"/>pointed,</p>
+                  <p>Ordinances are the Means ap<g ref="char:EOLhyphen"/>pointed to beget grace and to in<g ref="char:EOLhyphen"/>crease it, the Means of grace show that they should get grace, and are given to them that they may; if they despise or neglect them, they have no grace nor are like to have any; it is the perfection of Heaven indeed to be above them (they need not the streams that are at the Fountain head) but it
+<pb n="34" facs="tcp:31160:28"/> argues weakness to think that they may be Christians, and yet whilst in their imperfect state, either live <note place="margin">1 Pet. 2. 2.</note> without them, or above them.</p>
+                  <p rend="italic indent">The Candle will be of use, untill the day appears.</p>
+                  <p n="3">(3.) By this Saints are described,</p>
+                  <p>The Cypress-tree is fair, but not <note place="margin">Psal. 42. 1, 2. 1 Pet. 2. 2.</note> fruitful; the Fig-Tree is fruitful, but not fair; but the Church as the Olive-Tree is both fair and fruit<g ref="char:EOLhyphen"/>ful; there are no Truants in Christs School, they are ever learning in<g ref="char:EOLhyphen"/>deed, but it is that they may at<g ref="char:EOLhyphen"/>tain to greater measures of know<g ref="char:EOLhyphen"/>ledge than what they have, there are no Dwarfs in Christs Family; for being spiritually alive they hunger and thirst after Righteous<g ref="char:EOLhyphen"/>ness, and go from strength to strength, <hi>viz,</hi> not only from one <note place="margin">Math. 5. 6. Job 17. 9. Cant. 6. 6.</note> good quality to another, but to an increase in all, there are no bar<g ref="char:EOLhyphen"/>ren Sheep that belong to his Fold;
+<pb n="35" facs="tcp:31160:28"/> for they all bear twins, nor any withered Trees in his Vine-yard, for it is a watered Garden, and all that are planted there, flou<g ref="char:EOLhyphen"/>rish; the Trees of Righteousness are not indeed as all the Trees of Paradise were, <hi>viz.</hi> perfect at first (as to parts they are, though not as to degrees) but they are grow<g ref="char:EOLhyphen"/>ing <note place="margin">Psal. 92. 13, 14, 15. John 15. 5. Matth. 3. 20, 21.</note> up to it.</p>
+                  <p rend="italic indent">The withering the blade was a sign of the stony ground.</p>
+                  <p n="4">(4.) To this, Grace naturally <note place="margin">Hos. 14. 5, 6.</note> tends.</p>
+                  <p>Grace is compared to <hi>Lebanon,</hi> for smell, to the Vine of <hi>Lebanon;</hi> for taste, to the Olive; for beau<g ref="char:EOLhyphen"/>ty, to the Lilly; for growth, to Light; which though small at first yet shines more and more to the <note place="margin">Prov. 4. 18. Mat. 13. 31, 3<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </note> perfect day: to fire, that arises from a spark to a flame; to leaven that soon overspreads the whole lump; to seeds, that sprout from
+<pb n="36" facs="tcp:31160:29"/> a blade to a stalk, and from that to ripe Corn, to Mustard-seed, at first the least of all seeds, but when grown the greatest among Herbs; it is not perfect at first no more then Nature, nor has it any peri<g ref="char:EOLhyphen"/>od, (any <hi>maximum quod sic)</hi> be<g ref="char:EOLhyphen"/>yond which it cannot go, for per<g ref="char:EOLhyphen"/>fection is the state to which it is appointed, and to which it tends, from faith to faith, from strength to strength, from light to light, and from glory to glory. <note place="margin">Psal. 94. 7. Isa. 9. 7. 2 Cor. 3. 18, 21. 7. 1. Ezek. 4. 7.</note>
+                  </p>
+                  <p rend="italic indent">The waters of the Sanctuary were increasing, and of the increase of Christs Kingdom within us there is no end.</p>
+                  <p n="5">(5.) It will bring glory to Christ, benefit to others, and com<g ref="char:EOLhyphen"/>fort to themselves.</p>
+                  <p n="1">
+                     <label>(1.) Glory to Christ.</label>
+                  </p>
+                  <p>Christ received a fullness of Grace, not as a private, but as a publick person, <hi>viz.</hi> as a Sun to
+<pb n="37" facs="tcp:31160:29"/> enlighten, as a fountain to fill, as a root to quicken, and as a head to influence, a fulness in the high<g ref="char:EOLhyphen"/>est degree, and the more we have of it, the more glory we shall bring unto him; for as the fruit<g ref="char:EOLhyphen"/>fulness of a Tree commends the Root, so the increase of grace in us, shows the fulness of grace in <note place="margin">Matth. 5. 16. John 15. 8. Phil. 1. 11.</note> Christ the fountain of it.</p>
+                  <p rend="italic indent">If the Cistern is full, much more then the Spring that feeds it.</p>
+                  <p n="2">
+                     <label>(2.) Benefit to others.</label>
+                  </p>
+                  <p>Grace was at first discovered by two communicating things, <hi>viz.</hi> Tongues and Fire, and the great<g ref="char:EOLhyphen"/>er our eminency in it is, the more we shall excel to Edification, and be either as <hi>Paul</hi> or <hi>Apollos, viz.</hi>
+                     <note place="margin">Acts 2. 3. 1 Thes. 5. 11. 2 Cor. 9. 2.</note> Planters of grace in others, or waterers of it.</p>
+                  <p rend="italic indent">One industrious Scholar and Ar<g ref="char:EOLhyphen"/>tist encourages another, the
+<pb n="38" facs="tcp:31160:30"/> burning Coal, and lively Chri<g ref="char:EOLhyphen"/>stian put Life into dead ones.</p>
+                  <p n="3">
+                     <label>(3.) Comfort to themselves, <hi>viz.</hi> here and hereafter.</label>
+                  </p>
+                  <p n="1">
+                     <label>(1.) Here.</label>
+                  </p>
+                  <p>The best evidence of the truth of grace, is the growth of it; (for that which proves it to be strong, proves it to be alive, and so it is of our right to Joy and Peace too, for none can rejoyce in a conceal<g ref="char:EOLhyphen"/>ed good, or unknown Title) the weakest Child has a ground of comfort as a Child, but that which is grown up to years, can judge best of his Fathers Love and draw most comfort from it, and weak grace gives as much ground of comfort as a sign, though not as an instrument, for that must pass two Courts, <hi>viz.</hi> That of Heaven, and Conscience, and it is strong grace usually that reads it there.</p>
+                  <p rend="italic indent">
+                     <pb n="39" facs="tcp:31160:30"/>Where grace is strong, our union with Christ will be more clear, our Communion with him more full, and our joy flowing from it, will be so too.</p>
+                  <p n="2">
+                     <label>(2.) Hereafter.</label>
+                  </p>
+                  <p>Gladness is sown for the up<g ref="char:EOLhyphen"/>right, <note place="margin">Psal. 97. 11. James 1. 18. Phil. 4. 17. Rom. 6. 22.</note> Grace is the seed, Glory the Crop, the more Seed the great<g ref="char:EOLhyphen"/>er Harvest, the more Grace the more Glory; that is the work, and according to that shall the reward <note place="margin">2 Cor. 5. 10. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>
+                        <hi>congruenter ad id quod sececerit, viz.</hi> not only according to the quality of his deeds, but the degrees of those qualities</note> be, not for it but according to it, for as according to the matter of the work shall be the substance of the reward, so according to the measure of it shall be the degree, not only according to the quality of the work, but according to the degree.</p>
+                  <p rend="italic indent">He whose pound gained ten pounds was made Ruler over ten Cities.</p>
+                  <pb n="40" facs="tcp:31160:31"/>
+                  <p>Standing waters putrefie, Build<g ref="char:EOLhyphen"/>ings <note place="margin">Luke 19. 16, 17, 24.</note> not finished decay, Garments not worn grow moth-eaten, Stocks not improved will soon be spent, and Talents as soon be lost, by spending on the quick Stock we shall be impoverished, lose what we have by not adding to it, by not going forward go backward, and by not growing decline, we must not therefore stand still with the Sun in <hi>Joshua</hi>'s time, nor go <note place="margin">
+                        <hi>Ʋbi incepimus stare, descendi<g ref="char:EOLhyphen"/>mus.</hi> Psal. 119. 5.</note> back with that in <hi>Hezekiah</hi>'s, but go forward in strength with <hi>Da<g ref="char:EOLhyphen"/>vid</hi>'s (that rejoyceth as a mighty man to run his race) as Children of light nearer to the father of lights, that we may both secure what we have and add unto it, and there<g ref="char:EOLhyphen"/>by weaken the habits of sin, and suppress the acts of it, for the stron<g ref="char:EOLhyphen"/>ger the habits of grace are the wea<g ref="char:EOLhyphen"/>ker will the habits of sin be, and the weaker the habits are the few<g ref="char:EOLhyphen"/>er will be the acts of it.</p>
+                  <p rend="italic indent">
+                     <pb n="41" facs="tcp:31160:31"/>Grace alone will not do it, unless it be Grace Acted, nor Grace Acted, unless assisted and in<g ref="char:EOLhyphen"/>creased.</p>
+               </div>
+               <div n="4" type="chapter">
+                  <head>CHAP. IV.</head>
+                  <argument>
+                     <p>Of Quickning and Assist<g ref="char:EOLhyphen"/>ing Grace.</p>
+                  </argument>
+                  <p>THE strong and weak in Grace must daily implore the Assisting and Quick<g ref="char:EOLhyphen"/>ning influence of Grace, upon the Grace they have.</p>
+                  <p>Quickning Grace is as necessary as Renewing Grace, auxiliary Grace as habitual; for that assists us in working as the other does in being, and are both from God. <note place="margin">1 Cor. 15. 10.</note>
+                  </p>
+                  <p n="1">
+                     <pb n="42" facs="tcp:31160:32"/>
+                     <label>(1.) Renewing Grace.</label>
+                  </p>
+                  <p>Our natural being is in God, (for in him we Live, and Move) and so is our Spiritual being too; for grace is his Creature not ours, and by him alone it is that we are prepared to Grace, as well as to work, to him therefore the prime donor through Christ (the Way through which it is convey'd to us) we must (and with hope we may) go for it.</p>
+                  <p rend="italic indent">When there is no Grace in us, yet <note place="margin">Luke 11. 13. Eph. 1. <hi>ult.</hi> 4. 7. James 1. 5.</note> without us there is, <hi>viz.</hi> In him the God of all Grace there is enough.</p>
+                  <p n="2">
+                     <label>(2.) Quickning Grace.</label>
+                  </p>
+                  <p>The strongest Grace in us is <note place="margin">John 1. 16. <hi>Non plenitudi<g ref="char:EOLhyphen"/>nem sed de pleni<g ref="char:EOLhyphen"/>tudine.</hi>
+                     </note> weak, but a drop of that fulness in Christ, a ray of that brightness in him the Sun of Righteousness,
+<pb n="43" facs="tcp:31160:32"/> and as such, needs a daily supply and influence, as a little strength, the more power to uphold it, a little Stock, the more Care to improve it; and a little Fire the more Blowing to Increase it.</p>
+                  <p>Grace is contrary to our Na<g ref="char:EOLhyphen"/>ture and can receive no Quickning from it, it is as a small Party in the Enemies quarters, that are easily overcome, as a spark in the Ocean, that is easily extin<g ref="char:EOLhyphen"/>guished, as a small degree of heat brought into Water, that will as easily be wrought out, or as a foreign Plant in a soil contra<g ref="char:EOLhyphen"/>ry to its Nature, that will be as soon destroyed, were it not that a Divine Power was exerted, to Strengthen, Quicken, and Keep it alive: our Spiritual Life is hid with Christ in God, it comes from him, and is maintained by him, and therefore to him we must go for the power of Grace
+<pb n="44" facs="tcp:31160:33"/> as well as the Inspiration; for Grace, and for Power to Act <note place="margin">John 6. 63.</note> the Grace received, for we can <note place="margin">Eph. 2. 1.</note> no more without his Assisting Grace do good, than we can without his exciting Grace, will it.</p>
+                  <p rend="italic indent">Every natural Motion in the Body, is from the Soul, and every Heavenly Motion in the Soul, from the Spirit.</p>
+               </div>
+               <div n="5" type="chapter">
+                  <pb n="45" facs="tcp:31160:33"/>
+                  <head>CHAP. V.</head>
+                  <argument>
+                     <p>Of Humility under Grace.</p>
+                  </argument>
+                  <p>THE strong and weak in Grace must walk humbly before God, under all the de<g ref="char:EOLhyphen"/>grees of Grace received, the weak because not strong, and the strong because comparatively weak, <hi>viz.</hi> to what they should, or might have been.</p>
+                  <p rend="italic indent">How great the means of Grace? How small the measures of it?</p>
+                  <p>Their Sins should humble them, and so should their Graces too.</p>
+                  <p>Their sins,</p>
+                  <p>Pride goes before a fall (the
+<pb n="46" facs="tcp:31160:34"/> Devil the first Apostate fell by it) but must not (in this sense) fol<g ref="char:EOLhyphen"/>low it.</p>
+                  <p rend="italic indent">Pride of Life is no fit Compani<g ref="char:EOLhyphen"/>on <note place="margin">Prov. 16. 18.</note> for sinfulness of Life.</p>
+                  <p>Their Graces, for</p>
+                  <p>They are all received, and therefore more matter for Humili<g ref="char:EOLhyphen"/>ty then Pride, if thou didst receive why doest thou glory? <note place="margin">1 Cor. 4. 7.</note>
+                  </p>
+                  <p rend="italic indent">They that are proud of their Graces, and good Works, are Proud of their debts.</p>
+                  <p>Pride is a sin indeed of such a Nature, that it will grow (if not prevented) in the most unsuspect<g ref="char:EOLhyphen"/>ed soil, <hi>viz.</hi> in the Garden of Grace, yea sometimes out of Hu<g ref="char:EOLhyphen"/>mility it self, but there is no rea<g ref="char:EOLhyphen"/>son for it, for not only that, but every other Grace is imperfect.</p>
+                  <p>It is true,</p>
+                  <p>As the low Vines are more fruitful then tall Cedars, and Val<g ref="char:EOLhyphen"/>leys
+<pb n="47" facs="tcp:31160:34"/> more then Mountains (for showers and fruitful dews glide from the Hills to them) as the Vi<g ref="char:EOLhyphen"/>olet that hangs its head lowest, is the sweetest of all Flowers; the Lilly of the Valleys, the most love<g ref="char:EOLhyphen"/>ly of all Lillies; the heaviest ears of Corn stoop lowest to the Earth, the Metals and Waters that lye deepest in the Earth are the best, and sweetest, so the more humble any are, the more Grace they have. The Proud would be <note place="margin">1 Pet. 5. 5.</note> thought to have most Grace, but the humble have most, but all received, for it is God that gives it. As the Moon is irradia<g ref="char:EOLhyphen"/>ted by the Sun, casts no other Beams but what it has from it, and when at the Full, has then a dark spot, so every Grace is but a Ray from Christ the Sun of Righteous<g ref="char:EOLhyphen"/>ness, and when brightest, has then its spot, an imperfection in its greatest perfection; something lacking (as in the <hi>Thessalonians</hi>
+                     <note place="margin">1 Thes. 3. 10.</note> faith) to be perfected, and there<g ref="char:EOLhyphen"/>fore
+<pb n="48" facs="tcp:31160:35"/> as they that are most humble, have most Grace, so the more Grace we have the more humble we should be, for it is given in order to it.</p>
+                  <p rend="italic indent">To be Proud of Grace, is to poy<g ref="char:EOLhyphen"/>son our selves with our Anti<g ref="char:EOLhyphen"/>dote.</p>
+                  <p>Humility is the very basis, and Foundation of all vertue, the first stone, and top-stone in the spiri<g ref="char:EOLhyphen"/>tual Building, the most acceptable sacrifice we can offer to God, that which will give us honour in his eyes, and make us like unto him.</p>
+                  <p>It is the foundation of all ver<g ref="char:EOLhyphen"/>tue, for we have none without it.</p>
+                  <p rend="italic indent">When Angels lost their humility they became Devils.</p>
+                  <p>The most acceptable sacrifice we can offer to God.</p>
+                  <pb n="49" facs="tcp:31160:35"/>
+                  <p>A Sacrifice of Gods own fram<g ref="char:EOLhyphen"/>ing, his Sacrifice, (his by efficien<g ref="char:EOLhyphen"/>cy, before ours by oblation) yea his sacrifices, all and every one, the vertue, power, and value of all in one. <note place="margin">Psal. 51. 17.</note>
+                  </p>
+                  <p rend="italic indent">Legal Sacrifices were broken Beasts, Evangelical Sacrifices are humble and broken Hearts.</p>
+                  <p>This will give us honour in the <note place="margin">Prov. 11. 2. 29. 23. Where Pride rides, there shame Lac<g ref="char:EOLhyphen"/>keys, <hi>Ital. Prov.</hi>
+                     </note> eyes of God, nothing has more shame attending it than Pride, (when Pride comes then comes shame) nor any thing more ho<g ref="char:EOLhyphen"/>nour than Humility.</p>
+                  <p>(Honour upholds the humble in Spirit) nothing has more of humility in it, then meekness; nor any thing more of Ornament, it is called the Ornament of a meek spirit, which is in the sight of God <note place="margin">1 Pet. 3. 9.</note> of great Price, Pride cannot set us so high in our esteem as it does low in Gods, for he knows the proud afar off as Enemies in a way
+<pb n="50" facs="tcp:31160:36"/> of contempt and in his due time will humble them, (their Pride shall bring them low, that shall humble them, if they themselves will not) nor humility put us so low in our esteem as high in Gods, for he has a respect to the lowly (the last shall be first) to them he looks <hi>(viz.</hi> with Affection, and delight) and with them he dwells, as truely with them on Earth, as with glorified Saints in Hea<g ref="char:EOLhyphen"/>ven.</p>
+                  <p rend="italic indent">The Devils two dwellings, are <note place="margin">
+                        <hi>Tantus quisque est quantus apud Deum.</hi> 1 Tim. 4. 6.</note> Hell, and Proud hearts, but Gods are the highest heavens and lowest hearts, there in his Glory, in these by his Grace.</p>
+                  <p>It will make us like to God.</p>
+                  <p>Pride makes us like Devils, (far they are the worst Creatures, and the proudest) but humility makes us like to God, for Christ that was God was Humble, They <note place="margin">Phil. 2. 7. Matth. 11. 29.</note>
+                     <pb n="51" facs="tcp:31160:36"/> through Pride would become Gods, God humbled himself to become Man, it was the Glory of his greatness to be clad with meek<g ref="char:EOLhyphen"/>ness, and surely then no less of our meanness and vileness (be<g ref="char:EOLhyphen"/>cause in this so like him) to be so too.</p>
+                  <p rend="italic indent">It is prodigious for sinners to be Proud, when he that was God was humble.</p>
+               </div>
+               <div n="6" type="chapter">
+                  <pb n="52" facs="tcp:31160:37"/>
+                  <head>CHAP. VI.</head>
+                  <argument>
+                     <p>Of the weak and small de<g ref="char:EOLhyphen"/>grees of Grace.</p>
+                  </argument>
+                  <p>TRue Grace though weak, is matter of comfort to all in whom it is to be found, for it is as true Grace as the strong<g ref="char:EOLhyphen"/>est, entitles us to Gods love, inte<g ref="char:EOLhyphen"/>rests us in Christ, and the privi<g ref="char:EOLhyphen"/>ledges that come by him, and shall persevere to the end.</p>
+                  <p n="1">(1.) Weak Grace is as true Grace as the strongest.</p>
+                  <p>Some have asserted, that none beleive without remarkable ter<g ref="char:EOLhyphen"/>rors, that there is no Faith where
+<pb n="53" facs="tcp:31160:37"/> no assurance and look on weak Grace as no grace.</p>
+                  <p n="1">(1.) That none beleive with<g ref="char:EOLhyphen"/>out remarkable Terrors, which is not so, for the Spirit is an Arbi<g ref="char:EOLhyphen"/>trary Agent in its works, either of sorrow or joy, and therefore though such a degree of Humilia<g ref="char:EOLhyphen"/>tion is necessary in order unto believing, as whereby we see a present and absolute need of Christ, yet as true it is, that if we are so far humbled we may as safely close with Christ, and rest upon him for Salvation as if wrought under the greatest terror and consternation, for that de<g ref="char:EOLhyphen"/>gree is enough, that drives us out of our selves to him.</p>
+                  <p rend="italic indent">No less will do, and no more is needful.</p>
+                  <p n="2">(2.) That there is no Faith, where no assurance, which is not so, for</p>
+                  <pb n="54" facs="tcp:31160:38"/>
+                  <p>Though Assurance is never without Faith, (the sealing work of the Spirit never without the sanctifying work of it,) yet Faith may be, and many times is with<g ref="char:EOLhyphen"/>out Assurance (the sanctifying work without the sealing work) the broad Seal of the Spirit, <hi>(viz.</hi> Grace in the habits, and acts of it) is common to all the Elect, but the privy Signet or seal of special favour, <hi>(viz.</hi> the Assurance of it) is given but to some onely.</p>
+                  <p rend="italic indent">Christ was familiar but with three of his Disciples.</p>
+                  <p n="3">(3.) Some look on weak grace as no grace,</p>
+                  <p>As if there was no Faith but the Faith of an <hi>Abraham;</hi> no Meek<g ref="char:EOLhyphen"/>ness but the Meekness of a <hi>Moses,</hi> nor any Patience but the Patience of a <hi>Job,</hi> which is not so, for</p>
+                  <p n="1">(1.) Weak grace is as true grace as the strongest.</p>
+                  <pb n="55" facs="tcp:31160:38"/>
+                  <p>It is true,</p>
+                  <p>As all flowers have not beauty, nor all Stars lustre alike, so nor all Grace strength alike, for God gives not Grace as he did Manna by the Omer, to all alike, but as he gives Riches, <hi>viz.</hi> to some more and to some less, yet the least degree shows it to be true.</p>
+                  <p rend="italic indent">
+                     <hi>Canaans</hi> Fruit was known by the Clusters.</p>
+                  <p>In all Homogeneal things, the part is the same with the whole, the least ray of Gold is as true Gold, as the greatest wedge; the least drop of Water, and spark of Fire, is Water and Fire; for the true and proper Nature of Water, and Fire is in them, as truely as in the Ocean and Flame, that Child is as true a man having all its parts, and members at the Birth, as a man grown; and weak Grace is as true Grace as the strong, alike precious <note place="margin">2 Pet. 1. 1. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, <hi>ejus<g ref="char:EOLhyphen"/>dem pretii.</hi>
+                     </note> though not alike great; one and
+<pb n="56" facs="tcp:31160:39"/> the same in kind, though not in Degree and Measure.</p>
+                  <p rend="italic indent">The degree differs not the species.</p>
+                  <p>So that if the Metal and stamp be good though small, it is cur<g ref="char:EOLhyphen"/>rent Coin, if the pulse beat though low, there is Life, and if but so much light as to make day, by that we may read the happiness of our condition, for the least degree of Grace is the earnest of the spirit.</p>
+                  <p rend="italic indent">The earnest secures the whole, it cannot be lost, it shall be made up.</p>
+                  <p n="2">(2.) Weak grace entitles us to <note place="margin">Isa. 10. 6.</note> Gods Love, Hypocrisie is the ob<g ref="char:EOLhyphen"/>ject of Gods wrath, sincerity of his Love, the highest degree is admirable, and the lowest amia<g ref="char:EOLhyphen"/>ble, for as the Gold-Smiths eyes are on the thin rays of Gold as well as the greater pieces, so are Gods on the Truth (thine eyes <note place="margin">Jer. 5. 3.</note>
+                     <pb n="57" facs="tcp:31160:39"/> are upon the Truth) as well as the strength of grace, and his heart works as truly to the least, as to the greatest measure of it (nay the expression of tenderness seems to be most to that) for he loves us in regard of our interest, <note place="margin">Isa. 40. 11. 42. 37. Yea doubles, and trebles his promise to the weak in Grace, <hi>viz.</hi> he will gather them in his arms, carry them in his bosom and gently lead them.</note> as well as our Eminency.</p>
+                  <p rend="italic indent">Weak Saints as well as strong are put in the Calendar of Saints.</p>
+                  <p n="3">(3.) Weak grace gives us an interest in Christ, <hi>viz.</hi> A sure, e<g ref="char:EOLhyphen"/>qual and beneficial interest in him.</p>
+                  <p n="1">
+                     <label>(1.) A sure interest,</label>
+                  </p>
+                  <p>A Weak Child is as much a Child, as the strong, and has as good a right to the inheritance, and weak Saints as well as strong, are Sons, and if Sons, Heirs (for all Gods Sons inherit) they can<g ref="char:EOLhyphen"/>not lose their Union, though they may the comfort of it, for their heavenly Father will not cast them off for weakness.</p>
+                  <p rend="italic indent">
+                     <pb n="58" facs="tcp:31160:40"/>They are not tender, but withered <note place="margin">Rom. 8. 17. Matth. 21. 19.</note> branches, not weak, but rot<g ref="char:EOLhyphen"/>ten members, that are cut off.</p>
+                  <p n="2">
+                     <label>(2.) An equal Interest.</label>
+                  </p>
+                  <p>A Father is not more a father to one Child then to another; in Affection he may, but not in Re<g ref="char:EOLhyphen"/>lation, nor Christ more a head to the strong in Grace, then to the weak, for</p>
+                  <p rend="italic indent">As in Nature so in Grace, every <note place="margin">Relatio non sus<g ref="char:EOLhyphen"/>cipit magis, aut minus.</note> member has an equal Ʋnion, and Conjunction with the Head.</p>
+                  <p n="3">
+                     <label>(3.) A beneficial Interest.</label>
+                  </p>
+                  <p>A weak hand may receive an Alms or a Pardon as well as a strong one; a trembling as a tri<g ref="char:EOLhyphen"/>umphing Faith may tye the Mar<g ref="char:EOLhyphen"/>riage knot betwixt Christ and us, and the least degree of grace en<g ref="char:EOLhyphen"/>titles us to Life, as well as the great<g ref="char:EOLhyphen"/>est, for</p>
+                  <p rend="italic indent">
+                     <pb n="59" facs="tcp:31160:40"/>The promise is made, not to the <note place="margin">John 3. 16. Rom. 3. 22. <hi>Credo sede lan<g ref="char:EOLhyphen"/>guidâ Cruciger.</hi>
+                     </note> degree, but truth of it.</p>
+                  <p n="4">(4.) Weak grace shall perse<g ref="char:EOLhyphen"/>vere,</p>
+                  <p>The light of the Sun may by an Eclipse be obscured, but not ex<g ref="char:EOLhyphen"/>tinguisht, the Communication of a Father may cease, though the Relation remains, the joy of the Spirit may not be, where the Spi<g ref="char:EOLhyphen"/>rit is, as in Christs passion the Vi<g ref="char:EOLhyphen"/>sion was suspended, though the Union was not broken, and he forsaken as to comfort tho not as to interest (he cried out my God, my God) the common works of the spi<g ref="char:EOLhyphen"/>rit, <note place="margin">Psal. 51. 8. 12. and 89. 32.</note>
+                     <hi>(viz.</hi> Knowledg, illumination and conviction) and the degree, of the special works too (such as joy, and peace) may be lost, but the saving works of it cannot, for the anointing received abides, the vigor of grace may be abated <note place="margin">John 14. 16. 1 John 2. 27.</note> (as the strength of a body may by
+<pb n="60" facs="tcp:31160:41"/> a disease) the exercise of it may be interrupted, the acts of it for a time may cease whilst the habits remain, and the strong in grace may fall from some measures re<g ref="char:EOLhyphen"/>ceived (as the Church of <hi>Ephesus</hi>
+                     <note place="margin">Rev. 2. 4.</note> left her first love as to degree) from a good frame, though not from a good state; to a lameness, as <hi>Mephibosheth</hi> fell, but not as <hi>Dagon,</hi> never to rise more; and as <hi>Euty<g ref="char:EOLhyphen"/>ches</hi> into a swoon, but not as <hi>Eli</hi> to death, for</p>
+                  <p rend="italic indent">The fall shall never be so great, as <note place="margin">1 Sam. 5. 4. 2 Sam. 4. 4.</note> to quite destroy the Life of Grace.</p>
+                  <p>
+                     <hi>Solomons</hi> Temple was built on two Pillars, but this Truth has four to support it, <hi>viz.</hi> The Im<g ref="char:EOLhyphen"/>mutability of Gods love, the great<g ref="char:EOLhyphen"/>ness of Gods power, the fidelity of Gods promise, and the perpe<g ref="char:EOLhyphen"/>tuity of Christs prayer.</p>
+                  <p n="1">
+                     <pb n="61" facs="tcp:31160:41"/>(1.) The immutability of Gods love,</p>
+                  <p>Gods love to his people is free, (it comes more freely from him, then water from a Fountain) and it is unchangeable too, (he loves to the end) for they are sealed by <note place="margin">Jer. 31. 3. Hos. 14. 4. 2 Tim. 2. 19.</note> his spirit, the sealer is the Spirit, the seal is the grace of the Spirit that makes them sure to God, (for he knows them that are his) and God to them (the Spirit witnesses <note place="margin">Rom. 8. 16. 1 Cor. 2. 12.</note> with their Spirits that they are the Sons of God) they are not sealed one day, and cancelled ano<g ref="char:EOLhyphen"/>ther but when once so, for ever so, for it is to the day of Redemp<g ref="char:EOLhyphen"/>tion.</p>
+                  <p rend="italic indent">A sure day, though a long one. <note place="margin">Eph. 4. 30.</note>
+                  </p>
+                  <p n="2">(2.) The greatness of Gods power.</p>
+                  <p>The best if left to themselves would soon fall, either through weakness or wantonness, but God <note place="margin">Eph. 2. 1.</note> that quickned them when dead,
+<pb n="62" facs="tcp:31160:42"/> will much more guide them when quickned, he that gave Life will strengthen it, and either keep them from falling, or when fallen raise them, so that though they fall, they shall not be utterly cast down. <note place="margin">Heb. 13. 5.</note>
+                  </p>
+                  <p rend="italic indent">The strongest grace is weak, but <note place="margin">Premi, opprimi, non supprimi po<g ref="char:EOLhyphen"/>test.</note> the weakest is invincible, not as it is weak, but as he that keeps it is strong.</p>
+                  <p n="3">(3.) The fidelity of Gods pro<g ref="char:EOLhyphen"/>mise. <note place="margin">1 Pet. 4. 5. Matth. 8. 26.</note>
+                  </p>
+                  <p>The good work begun shall be perfected, the bruised reed not broken but strengthned; the smoak<g ref="char:EOLhyphen"/>ing <note place="margin">Matth. 12. 20. 16. 28. Phil. 1. 6. Jer. 32. 40.</note> Flax not quenched, but blown up into a flame, and judgment sent forth to victory, by vertue of the Covenant, that is not only well ordered, but sure.</p>
+                  <p rend="italic indent">The new Creature can never die, <note place="margin">2 Sam. 23. 5.</note> for it is immortal, not (as one says) in its proper Essence,
+<pb n="63" facs="tcp:31160:42"/> but by Covenant, as it is a <note place="margin">1 John 3. 9.</note> Child of promise.</p>
+                  <p n="4">(4.) The perpetuity of Christs prayer.</p>
+                  <p>Christ when on Earth pray'd that <hi>Peters</hi> faith might not fail, and so he does uncessantly for all Believers, <hi>viz.</hi> not only that their <note place="margin">Luke 22. 32.</note> faith, but every grace else may not fail, nor shall it, for because he lives, they shall live also, for <note place="margin">John 14. 19. Heb. 7. 25.</note>
+                  </p>
+                  <p rend="italic indent">He ever Lives, that their gracé may never die.</p>
+                  <p>
+                     <hi>Adam</hi> had a spiritual Life by Communion, but Saints have it by union with Christ, his Stock was greater then theirs, but it was not under so safe a Custody, for his was in his own hand, but theirs is in Christs, he had a power to do what he will'd, but did not will what he could do, but they have a strength from Christ both
+<pb n="64" facs="tcp:31160:43"/> to will and to do, he had a power to stand, but they are kept by his power, and as no one bone of his natural body was broken, so nor any one of his Mystical ever shall be, nor the least member of his perish, for</p>
+                  <p rend="italic indent">Rather then that should be, he <note place="margin">Phil. 2. 12, 13. 1 Pet. 1. 5.</note> would come again upon Earth, and be Crucified for it.</p>
+               </div>
+               <div n="7" type="chapter">
+                  <pb n="65" facs="tcp:31160:43"/>
+                  <head>CHAP. VII.</head>
+                  <argument>
+                     <p>The weak in Grace must not be discouraged under the small degrees of Grace, nor the strong in Grace despise the weak, but both go unto Christ, that they may receive of his fulness more abundant Grace.</p>
+                  </argument>
+                  <p n="1">(1.) THE weak in grace must not be discou<g ref="char:EOLhyphen"/>raged under the small degrees of grace.</p>
+                  <p>It is good to be humbled, but bad to be discouraged, if we con<g ref="char:EOLhyphen"/>sider, that none are perfect here, that the complaining of the want of Grace is Grace, that God judges
+<pb n="66" facs="tcp:31160:44"/> of all by their sincerity, and that weak grace may be strong.</p>
+                  <p n="1">
+                     <label>(1.) None are perfect here,</label>
+                  </p>
+                  <p>Perfection is Twofold, <hi>viz.</hi> In<g ref="char:EOLhyphen"/>choate, and compleat, inchoate perfection consists in a freedom from the love, and allowance of all sin, compleat perfection, in a freedom from the power, and presence, being and prevalency of it, that is a perfection of parts, and attainable here, (we may have it and must, for we are nothing without it) but this is not, for it is not a perfection by imputation of Christs perfection (for so Saints are perfect here) but by inherent perfection, a perfection of degrees, to which nothing can be added, to make it greater or better, a per<g ref="char:EOLhyphen"/>fection above that of <hi>Adams</hi> and of any Saints on Earth.</p>
+                  <p>Above that of <hi>Adams.</hi>
+                  </p>
+                  <p>His perfection was endowed but with a power not to sin, but
+<pb n="67" facs="tcp:31160:44"/> this with an impossibility to it, which is Gods perfection, for he cannot sin.</p>
+                  <p rend="italic indent">His state was perfect, but this is Permanent.</p>
+                  <p>Above that of Saints on Earth.</p>
+                  <p>Saints in Heaven (according to the Capacity of glorified Crea<g ref="char:EOLhyphen"/>tures) are pure, as God is pure in whom there is light and no darkness, but whilst on Earth they (like the Tribe of <hi>Manasseh,</hi> of which one part was in the Land of <hi>Canaan,</hi> another part beyond <hi>Jordan</hi> in a polluted Land) are partly spiritual and partly carnal, one part light and another part darkness, and will be until they come to the Spirits of just men made perfect, where all imper<g ref="char:EOLhyphen"/>fections shall be done away, they therefore that say they are with<g ref="char:EOLhyphen"/>out sin, prove that they are not, for in saying so they lye and in ly<g ref="char:EOLhyphen"/>ing
+<pb n="68" facs="tcp:31160:45"/> they sin, and they that say <note place="margin">Phil. 3. 12, 13. Heb. 12. 23. 1 Joh. 1. 8, 10.</note> they are perfect, show that they have not entered into the way of perfection, nor attained to so much knowledge, as to know their own ignorance.</p>
+                  <p rend="italic indent">Christ said to one of the most emi<g ref="char:EOLhyphen"/>nent <note place="margin">Matth. 14. 31.</note> Apostles, O thou of little Faith.</p>
+                  <p n="2">
+                     <label>(2.) Complaining of the want <note place="margin">Matth. 15. 28.</note> of Grace, is Grace.</label>
+                  </p>
+                  <p>In Sin the Justice of God inter<g ref="char:EOLhyphen"/>prets <note place="margin">Neh. 1. 11. Isaiah 26. 9.</note> the desire to be sin. (Lust makes Adultery without the act) and in grace, infinite love inter<g ref="char:EOLhyphen"/>prets the desire to be grace, for the promise is made to it, and Gods people from their desires have recoursed to him, and found comfort, a great blessing it is, when there are any Holy longings and desires in us after grace, for de<g ref="char:EOLhyphen"/>sires are grace, <hi>viz.</hi> If they are <note place="margin">Rom. 7. 19, 20. Heb. 13. 18.</note> more after grace then any thing else, after it for its beauty, and
+<pb n="69" facs="tcp:31160:45"/> excellency, after the highest de<g ref="char:EOLhyphen"/>grees of it, and when constant and laborious, endeavouring after those degrees desired, sense of deadness is a sign of Life (none but the living complain,) com<g ref="char:EOLhyphen"/>plaining of the want of Christ is <note place="margin">Tota vita nostra sanctum deside<g ref="char:EOLhyphen"/>rium.</note> Christ in us, for we seek for him by him, (as the Woman in the Gospel ask'd a Saviour, for and by a Saviour) and a desire after grace is grace, for we seek after it by it, <note place="margin">Psal. 27. 4. John 20. 16.</note> as we see the Sun by its own light, it is the lowest degree indeed of grace, but yet a degree; and in whom it is to be found, their mat<g ref="char:EOLhyphen"/>ter <note place="margin">The first brea<g ref="char:EOLhyphen"/>things of the Life of Grace. 2 Sam. 15. 3.</note> is good, and to them comfort belongs, for</p>
+                  <p rend="italic indent">As desires are the fruits of the Spirit they are Grace formally.</p>
+                  <p n="3">
+                     <label>(3.) God judges of all by their sincerity.</label>
+                  </p>
+                  <p>Sincerity is Gospel perfection, and as much of that there may be
+<pb n="70" facs="tcp:31160:46"/> under weak grace as under strong, yea, sometimes more in them that are weak in grace, then in those that have stronger habits, failings speak grace to be weak, but up<g ref="char:EOLhyphen"/>rightness shows it to be true, and when so it is accepted, <hi>Jobs</hi> pati<g ref="char:EOLhyphen"/>ence is only spoken of, ye have heard of the Patience of <hi>Job</hi> (tho sometimes he was very impatient) And <hi>Asa</hi>'s sincerity, the Reforma<g ref="char:EOLhyphen"/>tion <note place="margin">2 Chro. 15. 17.</note> was not perfect, yet it seems the Reformer was in Gods account who accepts the will for the deed, judges of us by our better part, values our duties, more by weight <note place="margin">Non bonum in magno, sed mag<g ref="char:EOLhyphen"/>num in bono.</note> then number, and our graces more by their truth then degree, he looks to the goodness of the Mettal, and if pure the very dust of it shall have its allowance in the scales of the Sanctuary, to argue therefore, from the weakness of grace to a nullity, is as irrational, as to think, there is no fire but the flame, no stars but those of the first Magnitude, or that the Sun
+<pb n="71" facs="tcp:31160:46"/> is not up because it is not noon day.</p>
+                  <p rend="italic indent">The Heart may be perfect, where Grace is imperfect.</p>
+                  <p n="4">
+                     <label>(4.) Weak grace may be strong.</label>
+                  </p>
+                  <p>The promise of an increase of grace, is made to the truth of grace (beleivest thou? Thou shalt see <note place="margin">John. 1. 50.</note> greater things then these) and in the least degree, there is a tenden<g ref="char:EOLhyphen"/>cy to it, for it is the seed of grace, and that as the seed sown gives hope of a Harvest, nature has its morning, and full noon, and so has grace (the day of small things) too, a laughing <hi>Sarah</hi> was at last <note place="margin">Gen. 8. 12. Heb. 11. 11.</note> a believing <hi>Sarah; Nicodemus</hi> that was fearful at first (a night-walker) was bold at last, and own'd a dead Master, whom the Disciples forsook while alive; and <hi>Peter</hi> that thrice denied his Master was afterward couragious and laid <note place="margin">Matth. 26.</note> down his Life for him.</p>
+                  <p rend="italic indent">
+                     <pb n="72" facs="tcp:31160:47"/>Adde a drop to a drop and in <note place="margin">Ital. Proverb.</note> time, it will be a Sea.</p>
+                  <p n="2">(2.) The strong in grace must not despise the weak.</p>
+                  <p>It is an Evil too many that are strong in grace, are prone to, <hi>viz.</hi> To glory in the great degrees of grace received, as if not received, and to despise the small degrees in others as if none, because such; the Moon is a dark body, and has no <note place="margin">Isa. 65. 5. Rom. 14. 10.</note> light but what it borrows from the Sun, nor any no not the bright<g ref="char:EOLhyphen"/>est in grace any light, but what they receive from Christ the Sun of Righteousness, to be proud of it, is their weakness and infirmi<g ref="char:EOLhyphen"/>ty, and great folly too, as will ap<g ref="char:EOLhyphen"/>pear by considering, that strong grace was once weak, and the strongest may be stronger, that weak grace is true grace and may be useful.</p>
+                  <p n="1">
+                     <pb n="73" facs="tcp:31160:47"/>
+                     <label>(1.) Strong grace was once weak.</label>
+                  </p>
+                  <p>The most spread Oak was once an Acorn, the strongest beam was once a twig, grown <hi>Paul</hi> was once a Child, and the strong in grace were once weak, and there<g ref="char:EOLhyphen"/>fore <note place="margin">1 Cor. 13. 11.</note> as unreasonable to despise them that are so, as for the Ar<g ref="char:EOLhyphen"/>tist in his Grammar to despise the Boy that is spelling his Letters, who by that arose to his Know<g ref="char:EOLhyphen"/>ledge.</p>
+                  <p rend="italic indent">The greatest Scholar began at first with a Letter.</p>
+                  <p n="2">
+                     <label>(2.) Strong grace may be stronger.</label>
+                  </p>
+                  <p>Grace in Christ was greater at its first infusion, then it can be in any at its full growth, and all that are sanctified by him, are indeed truly sanctified, but not equally, <note place="margin">Luke 1. 80. and 2. 52.</note> a perfection of parts they all have, but not alike perfection of de<g ref="char:EOLhyphen"/>grees,
+<pb n="74" facs="tcp:31160:48"/> some more then others, but none so much as they may or should have, all truly but none fully, for they that are highest may <note place="margin">2 Cor. 3 <hi>ult.</hi>
+                     </note> yet go higher.</p>
+                  <p rend="italic indent">The Bride her self stood in need <note place="margin">Cant. 1. 11.</note> of Borders of Gold, and studs of Silver to be made her.</p>
+                  <p n="3">
+                     <label>(3.) Weak Grace is true grace.</label>
+                  </p>
+                  <p>In Christs School there are ma<g ref="char:EOLhyphen"/>ny forms, high and low, Plants in his Vineyard of all sizes, strong and tender, full grown and new set, Cedars and Shrubs, Lambs as well as Sheep in his Fold, and Embrio's and Babes as well as <note place="margin">Cant. 4. 14. and 7. 12. Isa. 40. 11. Joh. 21. 15, 16. Gal. 4. 19. 1 Joh. 2. 12, 13.</note> strong men in his Family, and they are all equally his.</p>
+                  <p rend="italic indent">
+                     <hi>Mephibosheth</hi> though Lame, yet he was of the blood Royal.</p>
+                  <p n="4">
+                     <label>(4.) Weak grace may be useful.</label>
+                  </p>
+                  <p>Buds of Roses, as they are sweet <note place="margin">Cant. 1. 17.</note>
+                     <pb n="75" facs="tcp:31160:48"/> so they are useful too; Rafters <note place="margin">By Rafters some under<g ref="char:EOLhyphen"/>stand common grace, by beams saving grace, Others by Raf<g ref="char:EOLhyphen"/>ters weak grace, and by beams strong grace.</note> though not so strong as beams yet may serve for Building as well as they, the Vine though weak is fruitful; and weak grace may be of use as well as strong, it may in<g ref="char:EOLhyphen"/>deed have little or no comfort from Christ, yet it has no preju<g ref="char:EOLhyphen"/>dice against him, and therefore may put out it self in subjection to him, and service for him, and sometimes more then that which is stronger.</p>
+                  <p rend="italic indent">There were Women that followed <note place="margin">Matth. 27. 55. Mark 15. 40, 41. Luke 23. 27, 28.</note> Christ when going to be Cruci<g ref="char:EOLhyphen"/>fyed, and stood by him, when others fled away, and forsook him, they were instructers to the Apostles.</p>
+                  <p>None overlook the filings of Gold, or dust of Diamonds be<g ref="char:EOLhyphen"/>cause small, nor slight the Moon be<g ref="char:EOLhyphen"/>cause of her spots, and borrowed light from the Sun, nor should any despise the weak in grace,
+<pb n="76" facs="tcp:31160:49"/> much less smite those feeble ones with the Tongue of reproach, but instruct those young beginners, cherish those tender Plants, feed those Lambs, and not stifle but foster those Babes with care and gentleness.</p>
+                  <p rend="italic indent">If any Child meets with the tender <note place="margin">Zech. 4. 10. Deut. 25. 18. Isaiah 65. 5. Rom. 14. 10.</note> hand, and easie voice, it is the weak one.</p>
+                  <p n="3">(3.) The strong and weak in grace, must go unto Christ that they may receive of his fulness <note place="margin">John 1. 16.</note> more abundant grace.</p>
+                  <p>The fulness of the God-head dwelt in Christ, not a part of the <note place="margin">Col. 2. 9.</note> God-Head (for it is simple and in<g ref="char:EOLhyphen"/>divisible) but all the fulness of it dwelt in him personally and Hy<g ref="char:EOLhyphen"/>postatically, <hi>viz,</hi> The Godhead as united to the Manhood, and the fulness of the Godhead dwelling in him bodily, the fulness of grace <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>
+                     </note> dwelt in him habitually, a plena<g ref="char:EOLhyphen"/>ry and superlative fulness like that
+<pb n="77" facs="tcp:31160:49"/> of light in the Sun, a fulness a<g ref="char:EOLhyphen"/>bove all that any Saint ever had on Earth (for theirs is but a full<g ref="char:EOLhyphen"/>ness as to parts not as to de<g ref="char:EOLhyphen"/>grees) or any in Heaven has or can have, (for theirs is not an absolute fulness but according to their capacity only) a fulness of Grace in its greatest extension as to every kind, and in its great<g ref="char:EOLhyphen"/>est excellency as to every Degree, a fulness both objectively and subjectively, extensively and in<g ref="char:EOLhyphen"/>tensively, <hi>viz.</hi> as much as he needed for Ornament to himself, and influence to others.</p>
+                  <p>There are no beams out of the Sun, no streams out of the Foun<g ref="char:EOLhyphen"/>tain, nor any grace but from Christ the Golden Viol that fills all our Pipes, therefore to him both the strong and weak in Grace must go with their empty vessels, <hi>viz.</hi> Their thirsty souls that they may receive of his ful<g ref="char:EOLhyphen"/>ness <note place="margin">John 1. 16.</note> Grace for Grace, <hi>viz.</hi> The
+<pb n="78" facs="tcp:31160:50"/> same specifical though not the gradual Grace, the same for like<g ref="char:EOLhyphen"/>ness, though not for proportion, the same for kind though not for degree, that as he as their head had it as in an Ocean to redundan<g ref="char:EOLhyphen"/>cy, so they as his members (which are his fulness) may have it by participation to sufficiency.</p>
+                  <p rend="italic indent">The empty he fills, but the full, <hi>(viz.</hi> of Sin and Self) he sends empty away.</p>
+               </div>
+            </div>
+            <div n="2" type="part">
+               <pb n="79" facs="tcp:31160:50"/>
+               <head>PART. II.</head>
+               <argument>
+                  <p>Of <hi>DUTY.</hi>
+                  </p>
+               </argument>
+               <p>WHen <hi>David</hi> had sin'd the Message sent to him from God was, go tell <hi>David,</hi> but when he was going to Build the Temple, then it was go tell <hi>David</hi> my Servant, not only to show that we are then Gods Servants, when our Hearts are de<g ref="char:EOLhyphen"/>voted to him (and not when we serve our sinful pleasures) but that it is our honour to be so, and the more we exceed in it, the more we exceed in honour also. <note place="margin">2 Sam. 14. 12. and 7. 5.</note>
+               </p>
+               <p>A greater honour it is to be a Servant to God, then to be Ma<g ref="char:EOLhyphen"/>ster
+<pb n="40" facs="tcp:31160:51"/> of the World, <hi>David</hi> (one of the best, and greatest of Kings) esteemed it his honour, and it is the honour of all good men, yea and of Angels too, (whose service is their happiness) by doing of it, <note place="margin">
+                     <hi>Quo major sum tò magis laboro, &amp; quo magis la<g ref="char:EOLhyphen"/>boro eo major sum,</hi> Maximin.</note> we are not only enabled to it, but honoured by it, we not God, for he is perfect and can neither be hurt by our sins, nor helpt by our Duties, nor can we by the one, or the other, either detract from him, or adde unto him; a declarative honour indeed it is, that so many Millions of glorifyed Saints and Angels are about his Throne, and so many on Earth attend his ser<g ref="char:EOLhyphen"/>vice, but a greater honour it is, that he is not so needy as to want it, 'tis beneath him to hear the prayers of Angels, and an humbling him<g ref="char:EOLhyphen"/>self to behold glorifyed Saints, and surely then much more to hear and behold polluted sinners.</p>
+               <p>Whatever has an efficient, has an end out of it self, but God is his own being, and his own hap<g ref="char:EOLhyphen"/>piness <note place="margin">Deus est sua bea<g ref="char:EOLhyphen"/>titudo.</note>
+                  <pb n="81" facs="tcp:31160:51"/> also, it is intransient from him, and intrinsical to his own na<g ref="char:EOLhyphen"/>ture, he is happy in the reflexions of his own excellencies, exalted above all blessing and praise, and cannot be honoured by us, <hi>viz.</hi> by efficacy, though he may by testi<g ref="char:EOLhyphen"/>mony now that we may so by our Duties give honour to him, and thereby honour our selves, we must have an especial regard to the principle, rule, manner, and end of Duty; do every Du<g ref="char:EOLhyphen"/>ty commanded, do Duty tho danger attend it, and difficulty be in it, be unsatisfied in the per<g ref="char:EOLhyphen"/>formance of Duty, unless God be sought and found in it, beware of indisposition to Duty and dead<g ref="char:EOLhyphen"/>ness in it, do Duty with our hearts, continue in it to the end, be hum<g ref="char:EOLhyphen"/>ble after it, disclaim all merit by it, and look beyond it unto Christ.</p>
+               <p rend="italic indent">Servants have no will of their own, but are at their Masters command.</p>
+               <div n="1" type="chapter">
+                  <pb n="82" facs="tcp:31160:52"/>
+                  <head>CHAP. I.</head>
+                  <argument>
+                     <p>A regard must be had to the Principle, Rule, Manner, and End of Duty.</p>
+                  </argument>
+                  <p n="1">
+                     <label>(1.) TO the Principle.</label>
+                  </p>
+                  <p>The Principle leads into action, and such as the Prin<g ref="char:EOLhyphen"/>ciple is, such will the action be (for that as water rises no higher than its Fountain) the Principle of all Duty is either Flesh or Spi<g ref="char:EOLhyphen"/>rit, Death or Life, Sin or Grace; both are not good nor the Duties arising from both, it concerns us therefore to see that the Principle
+<pb n="83" facs="tcp:31160:52"/> of Duty be good, if we would have the Duty approved as so, good fruit grows no where but upon a good Tree, and good works proceed only from good Principles, we must therefore be created in Christ Jesus to good works, before we can do them, and be good before we can do <note place="margin">Fias opus Dei prius quam fece<g ref="char:EOLhyphen"/>ris opera dei.</note> good, for</p>
+                  <p rend="italic indent">Things are ever in being, before they are in Operation.</p>
+                  <p n="2">
+                     <label>(2.) To the Rule of Duty.</label>
+                  </p>
+                  <p>We are not to be a Rule to our <note place="margin">Galat. 6. 16. Eccles. 7. 16.</note> selves, nor are we left without one; the Divine Precept (Gods Rule and not ours) is the ground of Duty; to go beyond it is Super<g ref="char:EOLhyphen"/>stition, to come short of it is Hy<g ref="char:EOLhyphen"/>pocrisie; in one we are over Righteous, in the other, we are not Righteous enough, in the first we do too much, in the latter, too little; but by neither can we ei<g ref="char:EOLhyphen"/>ther
+<pb n="84" facs="tcp:31160:53"/> glorifie God or benefit our selves, for what is not done in obedience to the command is not done in Faith, and what is not of Faith is Sin, and that which is Sin will neither bring glory to God, nor comfort to our selves.</p>
+                  <p rend="italic indent">The Command directs to Duty, <note place="margin">Rom. 14. 23.</note> the Promise quickens to it, but yet there is no Promise to en<g ref="char:EOLhyphen"/>courage, but where there is a <note place="margin">Religio, est rect<g ref="char:EOLhyphen"/>us de Deo sensus, &amp; cultus.</note> Precept to Obey; for Religion is Worship grounded on right Knowledge, and the divine Command is the ground of it. <note place="margin">Psal. 119. 4, 5, 6.</note>
+                  </p>
+                  <p n="3">
+                     <label>(3.) To the manner of Duty.</label>
+                  </p>
+                  <p>A Man and a Beast may do the same thing, a Child and a Slave may perform the same service, and a Saint and a Hypocrite the same Duty, yet all in a different man<g ref="char:EOLhyphen"/>ner; but as no Duty though ma<g ref="char:EOLhyphen"/>terially good, unless formally so, <hi>(viz.</hi> so as to manner) is good at
+<pb n="85" facs="tcp:31160:53"/> all (for the command has a respect to both, and therefore a negli<g ref="char:EOLhyphen"/>gence <note place="margin">Mal. 3. 14. Rom. 6. 17. and 12. 8. Titus 2. 14. Heb. 4. 2. James 5. 16. Matth. 21. 7, 12, 13.</note> in it is a sin, as well as the neglect of it) so no Duty is formally good, <hi>viz.</hi> so as to manner, unless the will is engag'd in it, for grace is governed by a free and loyal Law, acts from a free and gene<g ref="char:EOLhyphen"/>rous principle, looks to Duty not as a task but debt; not as a fine but rent; as a priviledge not as a penance, and not only does it, but delights to do it; and the more there is of delight and willingness <note place="margin">
+                        <hi>Magis eligenda est voluntas sine actione quam actio sine bonâ voluntate, deus delectatur affectu magis quam effectu.</hi> Levit. 3. 16. James 2. 8. Psal. 110. 3. Willingnesses. Heb.</note> in it, the more easie it will be in it self, and the more acceptable to God, for</p>
+                  <p rend="italic indent">Willingness is as the fat of the sacrifice, that he has reserved to himself.</p>
+                  <p n="4">
+                     <label>(4.) To the End of the Duty.</label>
+                  </p>
+                  <p>The End (as the Moralist says) <note place="margin">Perfectio cujus-cunque est finis, virtutes non of<g ref="char:EOLhyphen"/>ficiis sed finibus distinguuntur.</note> specifies an action and makes it, either good or bad, such as the
+<pb n="86" facs="tcp:31160:54"/> End is, such is the Action; and such as our Ends are in Duty such is the Duty, since then nothing is more to be regarded in Duty, then the End, nor any thing in the End more to be valued then the glory of God, all the lines of Duty must be drawn to that center.</p>
+                  <p rend="italic indent">God must be the End, as well as the object of duty, his name must be the beginning, and his Glo<g ref="char:EOLhyphen"/>ry the end of all.</p>
+               </div>
+               <div n="2" type="chapter">
+                  <pb n="87" facs="tcp:31160:54"/>
+                  <head>CHAP. II.</head>
+                  <argument>
+                     <p>Obedience must be to every Duty Commanded.</p>
+                  </argument>
+                  <p>EVery Duty has its priviledg, and every priviledge its Duty; the greater the pri<g ref="char:EOLhyphen"/>viledge the greater the obligati<g ref="char:EOLhyphen"/>on, as well as encouragement to Duty, none share in the privi<g ref="char:EOLhyphen"/>ledges purchased by Christ, but those that do the duties command<g ref="char:EOLhyphen"/>ed by him, nor any that do the duties, unless they do, not some only, but all: the Divine autho<g ref="char:EOLhyphen"/>rity runs through every command, both great and small, negative and affirmative, publick and pri<g ref="char:EOLhyphen"/>vate, personal and relative, diffi<g ref="char:EOLhyphen"/>cult
+<pb n="88" facs="tcp:31160:55"/> and easie, and so must our obedience too, we are not idle retainers, but covenant Servants, and must neither neglect our work, nor pick and chuse it, obey (as <hi>Herod)</hi> in some things only, but (as <hi>Noah)</hi> in all, not by <note place="margin">Gen. 6. 22. Ps. 119. 6. 101. Acts 13. 22. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, Jam. 2. 10.</note> halves, as <hi>Apollonius</hi> saluted <hi>De<g ref="char:EOLhyphen"/>cimus</hi> by the name of <hi>Quintus,</hi> or as the eccho that sometimes an<g ref="char:EOLhyphen"/>swers but one word, but fully as the copy answers the original, word for word, not as a sphere upon a plain, that touches but in <note place="margin">Quicquid propter deum sit aequa<g ref="char:EOLhyphen"/>liter sit.</note> a point, but as a plain upon a plain, that touches in all.</p>
+                  <p rend="italic indent">Integrality is the best note of in<g ref="char:EOLhyphen"/>tegrity, we obey not truly, un<g ref="char:EOLhyphen"/>less fully.</p>
+               </div>
+               <div n="3" type="chapter">
+                  <pb n="89" facs="tcp:31160:55"/>
+                  <head>CHAP. III.</head>
+                  <argument>
+                     <p>Duty must be done, though danger attend it, and dif<g ref="char:EOLhyphen"/>ficulty be in it.</p>
+                  </argument>
+                  <p>MOst mind their condition, more then their Duty, or their condition so much as to forget the Duty of it, but if ever we would receive any good by our condition, we must mind the Duty of the condition, more then the condition, and do the Duty of it, if we would receive any benefit by it, and the Duty, though danger attend it, and dif<g ref="char:EOLhyphen"/>ficulty be in it.</p>
+                  <p n="1">
+                     <pb n="90" facs="tcp:31160:56"/>
+                     <label>(1.) Though danger attend it.</label>
+                  </p>
+                  <p>We may deprecate danger, but <note place="margin">Dulce est pericu<g ref="char:EOLhyphen"/>lum sequi deum.</note> must not either shun or flee from Duty to avoid it, for it may prove <note place="margin">Pietas sola secu<g ref="char:EOLhyphen"/>ritas.</note> the next way to it, while we keep in the road betwixt Sun and Sun, we are under the protection of the Law, and when in the way of our Duty, we are under the protection of Heaven, for there <note place="margin">Acts 4. 19, 20. <hi>Ʋnus homo toti<g ref="char:EOLhyphen"/>us orbis impetum sustinuit.</hi>
+                     </note> are Angels, yea God himself to protect us; usually duty and safe<g ref="char:EOLhyphen"/>ty go together, but were it not so we must be faithful to duty, though thereby we endanger our safety, as <hi>Athanasius</hi> against <hi>Constantine,</hi> and the whole World of <hi>Arrians,</hi> St. <hi>Ambrose</hi> against <hi>Theodosius,</hi> and St. <hi>Chrysostom</hi> against <hi>Eudoxia.</hi>
+                  </p>
+                  <p>Though (with <hi>Lot</hi> and <hi>Elijah)</hi> we are left alone, and (with <hi>Jo<g ref="char:EOLhyphen"/>shua)</hi> have none to side with us, <note place="margin">Josh. 24. 15. 2 Sam. 6. 22. Esther 4. 16.</note> though (with <hi>David)</hi> we appear vile in the eyes of the World, and are in danger (with <hi>Esther)</hi> to perish, though there are none to
+<pb n="91" facs="tcp:31160:56"/> encourage us, yea though all rise up and oppose us in the doing of it.</p>
+                  <p rend="italic indent">Thrice happy the Christian, that is <note place="margin">Acts 20. 24. Joh. 10. 12, 13.</note> found in the way of Duty, though in the way of danger, they that flee are Hirelings.</p>
+                  <p n="2">
+                     <label>(2.) Though difficulty be in it.</label>
+                  </p>
+                  <p>We must not question the per<g ref="char:EOLhyphen"/>formance of what is promised on Gods part, though never so seem<g ref="char:EOLhyphen"/>ingly impossible to sense, nor neg<g ref="char:EOLhyphen"/>lect the performance of what is commanded on our part though never so difficult, but stedfastly believe what is in the promise, <note place="margin">Quo levius man<g ref="char:EOLhyphen"/>datum to gravi<g ref="char:EOLhyphen"/>us peccatum.</note> and faithfully do what is in the Precept, the less the Sin is we are tempted to, the more strenuously it must be opposed (we have no love to God, if we offend him in that which is little) and the greater the Duty is that
+<pb n="92" facs="tcp:31160:57"/> we are called to, the more readi<g ref="char:EOLhyphen"/>ly it must be obeyed (we have but little love to God, if we do not please him by our obedience to difficult commands as well as easie) by mortifying one sin, we shall be the better enabled to mortifie another, and by the conscionable performance of one Duty, we shall gather strength for any or all; the more we do in Duty the more we may, the more we do the more comfort we shall find, and the less difficulty, for Christs yoke grows easie with wearing, <note place="margin">Matth. 11. 29.</note> and his burden light with carry<g ref="char:EOLhyphen"/>ing; <note place="margin">Non dicit nul<g ref="char:EOLhyphen"/>lum jugum, sed leve grave quia jugum, suave, quia tuum.</note> the more we labour the stronger we shall grow; the more we continue in well doing, the less weary we shall be of it: and therefore should be found in the way of duty though difficult, and <note place="margin">Grave dum tol<g ref="char:EOLhyphen"/>lis, suave, cum tuleris, <hi>Anselm.</hi>
+                     </note> continue in it, until it is not; that we may either find no dif<g ref="char:EOLhyphen"/>ficulties or make them none, by overcoming them.</p>
+                  <pb n="93" facs="tcp:31160:57"/>
+                  <p>It is True,</p>
+                  <p>The least Duty is too great for our strength, but the great<g ref="char:EOLhyphen"/>est is not for Christs, we must not depend on our strength, nor despair of his; the Command calls to Duty, the Promise assures strength; to him therefore must we go (in whom the Promise is yea and Amen) that we may re<g ref="char:EOLhyphen"/>ceive what is in the Promise, to do what is in the precept, <hi>viz.</hi> strength with <hi>Abraham</hi> to forsake, with <hi>Job</hi> to bear all, and with <hi>Paul</hi> to do all.</p>
+                  <p rend="italic indent">Christ Personal will strengthen Christ Mystical, and an Om<g ref="char:EOLhyphen"/>nipotent God can at any time make us (as it were) Omni<g ref="char:EOLhyphen"/>potent Creatures.</p>
+                  <p rend="italic indent">—I can do all things through <note place="margin">Phil. 4. 11.</note> Christ strengthning me.</p>
+               </div>
+               <div n="4" type="chapter">
+                  <pb n="94" facs="tcp:31160:58"/>
+                  <head>CHAP. IV.</head>
+                  <argument>
+                     <p>God must be sought in Duty.</p>
+                  </argument>
+                  <p>GOD in Covenant is not enough, unless enjoyed in the way of duty, inte<g ref="char:EOLhyphen"/>rest in him, and Communion with him are the two principal things to be sought after, and may be found in the way of duty, Le<g ref="char:EOLhyphen"/>gal Ordinances were but Types of Christ, and had no vertue in <note place="margin">They were of<g ref="char:EOLhyphen"/>fered <hi>cum quâ<g ref="char:EOLhyphen"/>dam protestatio<g ref="char:EOLhyphen"/>ne futuri Messtae.</hi> Tostatus.</note> them but as relating to him, who was the substance of those Sha<g ref="char:EOLhyphen"/>dows, and the kernels of those shells, nor are evangelical duties any thing, unless they bring us to the God of them.</p>
+                  <pb n="95" facs="tcp:31160:58"/>
+                  <p>It is true,</p>
+                  <p>By going from them we go from God, and by slighting them contemn him, but barely to re<g ref="char:EOLhyphen"/>turn to them is not enough, unless we draw nigh to God by them, Communion with whom is both the Life and End of them, God and they are separable, and when it is so they are but dead and em<g ref="char:EOLhyphen"/>pty things, the greater our di<g ref="char:EOLhyphen"/>stance is from God in them, the less enlarged and enflamed, the more contracted and strengthned our hearts will be, as the farther Rivers are from the Sea, the nar<g ref="char:EOLhyphen"/>rower and shallower they are, but the nigher we draw to God by them, and the more we see of him in them the more lively we shall be, as the nearer we sit to the Fire, or the more direct we live under the beams of the Sun, the more heat and warmth we shall feel. We must not then rest satis<g ref="char:EOLhyphen"/>fied without them, nor without God in them, but let these
+<pb n="96" facs="tcp:31160:59"/> golden buckets down to him the Fountain of Life, that we may drink and be satisfied: going into the Tabernacle was not enough to <hi>Moses,</hi> nor into the Sanctuary enough to <hi>David</hi> unless they <note place="margin">Exod. 33. 9, 18. Psal. 63. 2.</note> might see Gods glory, and power there; nor should it be enough to us that we are found in the way of duty, unless we may find God there; nor that at any time we sit at Christs Table, unless he himself (the Master of the feast) be there also, without whom our Spike<g ref="char:EOLhyphen"/>nard will not give forth its smell. <note place="margin">Cant. 1. 12.</note>
+                  </p>
+                  <p rend="italic indent">We must not draw nigh to duty with a less design, then of drawing nigh to God by it, nor leave it, until we have got something from him, nor at any time draw nigh to him, but so as never to go from him with<g ref="char:EOLhyphen"/>out him.</p>
+               </div>
+               <div n="5" type="chapter">
+                  <pb n="97" facs="tcp:31160:59"/>
+                  <head>CHAP. V.</head>
+                  <argument>
+                     <p>Indisposition to Duty, and deadness in Duty must be avoided, but yet Du<g ref="char:EOLhyphen"/>ty must not be either neglected, or cast off for it.</p>
+                  </argument>
+                  <p>THey that are spiritually alive as to state, are many times dead as to frame, and as such need quickning and exciting grace to assist them in the perfor<g ref="char:EOLhyphen"/>mance of Duty, that they may, not only walk, but run in the way of it, but must not either step out of the way of Duty, or stand <note place="margin">Isa. 40. 31.</note>
+                     <pb n="98" facs="tcp:31160:60"/> still in it, though they have it not, but go on as the Traveller, who goes on his way when the Wea<g ref="char:EOLhyphen"/>ther is not pleasant, though most chearfully when it is so, they must not cast off duty for blasphe<g ref="char:EOLhyphen"/>mous thoughts, (this would be to give Homage to the Devil, while they deny it to God) much less then, for deadness in it, but act Faith, when they cannot act fer<g ref="char:EOLhyphen"/>vency, and Obedience, though without present pay in their hand, for,</p>
+                  <p rend="italic indent">It is ever a time for duty, though not ever a time for comfort.</p>
+                  <p>Duty is a burden to a Sinner, want of Life in duty a burden to a Saint, but yet to do duty, and trust in God, under discourage<g ref="char:EOLhyphen"/>ments, are the noblest acts of Faith, and such as will prepare, and make way for duty and com<g ref="char:EOLhyphen"/>fort too.</p>
+                  <p n="1">
+                     <pb n="99" facs="tcp:31160:60"/>
+                     <label>(1.) For Duty.</label>
+                  </p>
+                  <p>By constant rubbing heat is brought into benummed members, by using Limbs we have them, and by doing duty, we shall be ena<g ref="char:EOLhyphen"/>bled to it, for the more frequent we are in it, the less weary, and the more lively we shall be.</p>
+                  <p rend="italic indent">Acts strengthen habits, the way not to be weary in duty, is to run a pace.</p>
+                  <p n="2">
+                     <label>(2.) For Comfort.</label>
+                  </p>
+                  <p>Wood though green by con<g ref="char:EOLhyphen"/>stant blowing upon it, will burn and sparks will fall from a flint, by continuing the stroke, and by continuance in duty, we make <note place="margin">Acts 8. 26, 27, 28. and 9. 11.</note> way to our Comfort, whilst the Eunuch continued reading, and <hi>Paul</hi> praying <hi>Philip</hi> was sent to one, and <hi>Ananias</hi> to the other,
+<pb n="100" facs="tcp:31160:61"/> and whilst we are diligent in du<g ref="char:EOLhyphen"/>ty, Comfort will appear, if not at the beginning nor in the mid<g ref="char:EOLhyphen"/>dle, yet at the end of it.</p>
+                  <p rend="italic indent">Many of <hi>Davids</hi> Psalms that be<g ref="char:EOLhyphen"/>gin with complaints, end with praise.</p>
+               </div>
+               <div n="6" type="chapter">
+                  <pb n="101" facs="tcp:31160:61"/>
+                  <head>CHAP. VI.</head>
+                  <argument>
+                     <p>The Heart must be con<g ref="char:EOLhyphen"/>cerned in every motion to duty and in it.</p>
+                  </argument>
+                  <p n="1">(1.) GOD Commands it.</p>
+                  <p>Not the Skin of a Beast, but the Entrails and inward parts under the Law were to be offered to God, and the Worship of the Spirit must now be given <note place="margin">Num. 27. 26. John 4. 24.</note> to him, who is a spirit and the God of spirits, all duties are com<g ref="char:EOLhyphen"/>manded for the Hearts sake, that is the purest part of Worship, and without it God will be (as <hi>Apollo)</hi> without a sacrifice.</p>
+                  <p rend="italic indent">
+                     <pb n="102" facs="tcp:31160:62"/>The Wood may be there, but not <note place="margin">Gen. 22. 7.</note> the Sacrifice.</p>
+                  <p n="2">(2.) God values every duty by the Heart.</p>
+                  <p>He measures our sins by the in<g ref="char:EOLhyphen"/>ward motions of our hearts to them (there may be Adultery without the act, and Murder with<g ref="char:EOLhyphen"/>out a blow) and so he does our duties too, by the desire of our hearts to them, and the motion of <note place="margin">Matth. 5. 28. 1 John 3. 15.</note> our hearts in them, and the more there is of the heart in sin and du<g ref="char:EOLhyphen"/>ty, the worse or better it is esteem<g ref="char:EOLhyphen"/>ed by him.</p>
+                  <p rend="italic indent">God is judge of Affections, we of Actions, we of Mens hearts by their Actions; he of their Actions by their hearts, and such as they are such are we in his esteem.</p>
+                  <p n="3">
+                     <pb n="103" facs="tcp:31160:62"/>(3.) God abhors every duty perform'd without the heart.</p>
+                  <p>Every Sacrifice under the Law, that was either imperfect, not prescribed, without the inward parts, or rent and torn, was an abomination to God, the first im<g ref="char:EOLhyphen"/>plyed false Worship, the second Will Worship, the two latter formal and Hypocritical Worship, not only to show, how much he abhorred cruelty, but how much he abhorred a sacrifice rent and torn (in an evil sense) betwixt him and our lusts, the richer the Jewel the baser the counterfeit, the whiter the Leper the worse, and <note place="margin">Amat deus Cor contritum, odit verò Cor divi<g ref="char:EOLhyphen"/>sum.</note> the more Hypocrisie there is in duty, the worse that duty, for Hypocirsie is but an appearance only, and God who is being hates that which is nothing but appearance; Hypocrisie is a pra<g ref="char:EOLhyphen"/>ctical lye, and God who is truth it self can never be reconciled to a
+<pb n="104" facs="tcp:31160:63"/> lye; without the heart, duty is nothing; for when things are not true they are not at all a vain Oblation, (like <hi>Prometheus</hi> his offering up his bones to <hi>Jupiter)</hi> and nothing worth. <note place="margin">Exod. 29. 18. Psal. 51. 10.</note>
+                  </p>
+                  <p rend="italic indent">So much as there is of the heart wanting in any duty, so much we sin in it.</p>
+                  <p n="4">(4.) God accepts the meanest duty with the heart.</p>
+                  <p>Two Turtles and an Ephah of fine Flower were accepted under the Law, two Mites were regard<g ref="char:EOLhyphen"/>ed, and commended in the Gos<g ref="char:EOLhyphen"/>pel, the labour of an hour in the Vineyard was rewarded, and the gift of a cup of cold Water to a Prophet, has the promise of a Prophets reward, and imperfect duties if sincere shall be accepted, good Affections shall go for acti<g ref="char:EOLhyphen"/>ons,
+<pb n="105" facs="tcp:31160:63"/> purposes for endeavours, and desires for deeds, if the heart is in them, and a power wanting to perform them; for God then ac<g ref="char:EOLhyphen"/>cepts the will for the deed, when we sincerely will it, though we cannot do it. <note place="margin">1 Kings 8. 18. Psal. 32. 5. 2 Cor. 8. 12.</note>
+                  </p>
+                  <p rend="italic indent">Duty can never make up the want of sincerity, but sincerity will imperfections, and defects in duty.</p>
+                  <p rend="italic indent">—The upright are perfect. <note place="margin">Gen. 17. 1.</note>
+                  </p>
+               </div>
+               <div n="7" type="chapter">
+                  <pb n="106" facs="tcp:31160:64"/>
+                  <head>CHAP. VII.</head>
+                  <argument>
+                     <p>Duty must be continued in <note place="margin">Mala pati, bona agere &amp; perseve<g ref="char:EOLhyphen"/>rare, sunt tria Christianorum.</note> to the End.</p>
+                  </argument>
+                  <p>
+                     <hi>EPhraims</hi> Goodness made an appearance for a while on<g ref="char:EOLhyphen"/>ly, like the morning Cloud it was soon scattered, and as the early dew soon dried up, the <hi>Ga<g ref="char:EOLhyphen"/>latians</hi>
+                     <note place="margin">Hos. 6. 4. Galat. 5. 7. Dan. 2. 52. The Breast and Arms of Silver the Belly and Thighs of brass the Legs of Iron, and feet part of iron, and part of Clay.</note> zeal was hot, but of no long continuance, they started like some high mettal'd Horses, and ran their course well for a time, but were soon tired, and many begin in the spirit but end in the flesh, their latter end proves worse then their begin<g ref="char:EOLhyphen"/>ning; like the Image in <hi>Daniel</hi> the
+<pb n="107" facs="tcp:31160:64"/> lower the worse, but our motion to Heaven if true, is like Hea<g ref="char:EOLhyphen"/>vens motion to us, <hi>viz.</hi> Regular and perpetual, it is not eccen<g ref="char:EOLhyphen"/>trick, nor disorderly, but guid<g ref="char:EOLhyphen"/>ed by a rule, and constant, not like that of the shadow on a Sun<g ref="char:EOLhyphen"/>dial, but that of a Clock, <hi>viz.</hi> By night as well by day, a progres<g ref="char:EOLhyphen"/>sive <note place="margin">Gen. 28. 12. Ezek. 19. 12.</note> motion, like that of the liv<g ref="char:EOLhyphen"/>ing Creatures in <hi>Ezekiel,</hi> going forward, and the nigher Heaven the Center, the swifter.</p>
+                  <p rend="italic indent">Violent motions are swiftest at first, natural motions are slow<g ref="char:EOLhyphen"/>est at first, and swiftest at last.</p>
+                  <p n="1">
+                     <label>(1.) Sincerity will be eviden<g ref="char:EOLhyphen"/>ced by it.</label>
+                  </p>
+                  <p>Fixed Stars abide in their Orb, but Meteours fed from below, which seem great, soon dissolve after a great blaze into their first Elements, true Gold ever keeps
+<pb n="108" facs="tcp:31160:65"/> its blush or colour, but what is guilded, though it shine at first, <note place="margin">
+                        <hi>Quemque deus de fine judicat, non de vitâ. Quod vix fit, fit, quod ferè fit, non fit.</hi> 1 John 2. 17.</note> will quickly lose its lustre, and what in Religion begins in Hypo<g ref="char:EOLhyphen"/>crisie will fade, and come to no<g ref="char:EOLhyphen"/>thing; for Hypocrisie and Apo<g ref="char:EOLhyphen"/>stacy, are (as one says) like the symbolical Elements, whereof one quickly slips into the other; a hypocrite being a secret Apo<g ref="char:EOLhyphen"/>state, and an Apostate an open hypocrite.</p>
+                  <p rend="italic indent">Well doing is the being of a Chri<g ref="char:EOLhyphen"/>stian, continuance in it, is his perfection.</p>
+                  <p n="2">
+                     <label>(2.) Safety depends upon it.</label>
+                  </p>
+                  <p>The Garland is not in the mid<g ref="char:EOLhyphen"/>dle <note place="margin">Ezek. 18. 26, 27. Matth. 20. 8, 9. Gal. 6. 0. Rev. 14. 13. <hi>Christus defici<g ref="char:EOLhyphen"/>entes supportat, vincentes coro<g ref="char:EOLhyphen"/>nat.</hi>
+                     </note> of the Race, but at the end and for none but such, as run to the end of it, the Crown is not for fighters but Conquerors, the day is the time for work, the even<g ref="char:EOLhyphen"/>ing (not noon) the time for wages, the Loiterer shall have none tho
+<pb n="109" facs="tcp:31160:65"/> he go early into the Vineyard, nor the labourer lose them though he come late, if he continue to the evening; Heaven is a place for rest, an everlasting Sabbath, none enter in, but them that work in their six days; none are glori<g ref="char:EOLhyphen"/>fied in that Eternity, but those that serve God in theirs; therefore if we would have our works fol<g ref="char:EOLhyphen"/>low us, we must be diligent in them, not for a time only, but to the going down of Sun of our Life.</p>
+                  <p rend="italic indent">If our works are Crowned with perseverance, we (the workers) shall be Crowned with Glory, not for the merit of our works, but as workers for the merit of Christ.</p>
+               </div>
+               <div n="8" type="chapter">
+                  <pb n="110" facs="tcp:31160:66"/>
+                  <head>CHAP. VIII.</head>
+                  <argument>
+                     <p>All Merit by Duty must be disclaimed.</p>
+                  </argument>
+                  <p>WE must not be proud of Duty, nor put any trust in it, but walk humbly after duty, disclaim all merit by it, and look beyond it unto Christ.</p>
+                  <p n="1">
+                     <label>(1.) We must be humble after duty.</label>
+                  </p>
+                  <p>
+                     <hi>Jacob</hi> when he awaked out of <note place="margin">Gen. 28. 16, 17.</note> his sleep, where God appeared to him, was afraid (how dreadful said he, is this place!) <hi>Elijah</hi>
+                     <note place="margin">1 King. 19. 13.</note> wrapped his face in a man<g ref="char:EOLhyphen"/>tle,
+<pb n="111" facs="tcp:31160:66"/> when the Glory of God passed before him, <hi>Job</hi> abhorr'd <note place="margin">Job 42. 5, 6.</note> himself, and <hi>Isaiah</hi> cried out he <note place="margin">Isaiah 6. 5.</note> was undone, when he had seen God, and the nearer our approach to God, and the higher our Com<g ref="char:EOLhyphen"/>munion with him is, the lower we must be in our esteem.</p>
+                  <p rend="italic indent">Stars are not seen when the Sun appears, and the more direct our shadow is under it, the lesser it is; for bodies just un<g ref="char:EOLhyphen"/>der it, cast no shadow.</p>
+                  <p n="2">
+                     <label>(2.) We must disclaim all me<g ref="char:EOLhyphen"/>rit by duty.</label>
+                  </p>
+                  <p>The dutiful necessity must be maintained (both doctrinally and <note place="margin">Titus 3. 8.</note> practically) the meritorious neces<g ref="char:EOLhyphen"/>sity must be disclaimed.</p>
+                  <p rend="italic indent">That which <hi>Saul</hi> acknowledged as <note place="margin">Phil. 3. 8, 9.</note> gain, <hi>Paul</hi> accounted loss.</p>
+                  <pb n="112" facs="tcp:31160:67"/>
+                  <p>And there is good reason for it, in that</p>
+                  <p n="1">(1.) Every duty is performed by the strength of another, <hi>viz.</hi> Gods strength worketh in us both <note place="margin">Phil. 2. 12, 13.</note> to will and to do, it is a gift by grace to us, before a work by grace from us, and therefore can no more be meritorious, then one gift received can oblige the donor to give another that are both his own.</p>
+                  <p rend="italic indent">It should oblige the receiver to gratitude, but cannot the do<g ref="char:EOLhyphen"/>nor to bounty.</p>
+                  <p n="2">(2.) The more we do, the more we are indebted to God, for the opportunity, in which we do it, and the strength by which we are inabled to it.</p>
+                  <p rend="italic indent">By paying our debts, we increase them.</p>
+                  <p n="3">
+                     <pb n="113" facs="tcp:31160:67"/>(3.) Every duty is weak and empty, imperfect and defective, (like Coin clipt within the Ring) something is wanting that we might do and much more that we should, the strongest grace has some weakness, and the best du<g ref="char:EOLhyphen"/>ty some imperfection attending it, our Righteousness is but a rag, too narrow to cover our unrighte<g ref="char:EOLhyphen"/>ousness, imperfect, and cannot be meritorious.</p>
+                  <p rend="italic indent">We cannot merit that by an im<g ref="char:EOLhyphen"/>perfect <note place="margin">2 Cor. 5. 20, 21.</note> Righteousness, which Christ has merited (and none but could) by a perfect one.</p>
+                  <p n="4">(4.) Every duty has a mixture of sin in it.</p>
+                  <p>There is not only something wanting that should be, but some<g ref="char:EOLhyphen"/>thing in it <hi>(viz.</hi> Sin) that should not; it may glitter, but there is an alloy in it, much dross in the
+<pb n="114" facs="tcp:31160:68"/> Gold, a filthy Rag, impure as well as imperfect, too much of one, and too little of the other.</p>
+                  <p rend="italic indent">Where there is guilt, there can <note place="margin">Psal. 91. 8. Heb. 2. 2. 2 Pet. 2. 13.</note> be no reward, nor any merit where a punishment is due, but that reward only that is due to the wicked.</p>
+                  <p n="5">(5.) No duty is profitable to God, to whom it is performed.</p>
+                  <p>Perfect duty (if it could be) adds no more to him, then the idolaters worshiping of the Sun adds lustre to it; duty as offered up by Christ the Mediator is ac<g ref="char:EOLhyphen"/>ceptable to God, but not gainful, he is pleased with it, but not pro<g ref="char:EOLhyphen"/>fited by it.</p>
+                  <p rend="italic indent">God loses nothing by our sins, nor gets any thing by our duties.</p>
+                  <p n="6">
+                     <pb n="115" facs="tcp:31160:68"/>(6.) Every duty is a debt, the <note place="margin">Officium debi<g ref="char:EOLhyphen"/>tum.</note> greatest, as well as the least, and we can no more merit by it, than we can pay one debt with another, or a greater debt with a less: the last sum of Money paid by a debtor, does not discharge the old arrears, nor any of our Duties, nor all of them discharge the old debt of obedience, due to God, they are less then the payment of a farthing to the greatest debt that ever was con<g ref="char:EOLhyphen"/>tracted, less then nothing, they cannot pay the interest, (which is due to God for his patient for<g ref="char:EOLhyphen"/>bearance) much less the princi<g ref="char:EOLhyphen"/>pal; they are good in themselves, and in their place, but will not go for pay, if they were perfect, they come in too late to do it, but they are imperfect and can<g ref="char:EOLhyphen"/>not. <note place="margin">John 5. 40. Heb. 7. 25.</note>
+                  </p>
+                  <p rend="italic indent">Christ our surety only can in whose name the bond is taken.</p>
+                  <p n="3">
+                     <pb n="116" facs="tcp:31160:69"/>(3.) We must look beyond <note place="margin">Psal. 71. 16.</note> duty unto Christ, without duty we cannot go to Heaven, for we are not sav'd without it, nor without distrust to it, for we are not sav'd with any respect to it; to neglect duty, is prophaneness, to trust in it, is Idolatry, by one we contemn God, by whom it is commanded, by the other we re<g ref="char:EOLhyphen"/>ject Christ, in whom alone it is accepted, in obedience to the <note place="margin">Cum Minervâ move manum, qui creavit te, sine te non salvabit te, sine te, nil tibi, sine te, omnis vir<g ref="char:EOLhyphen"/>tus abs{que} Christo, vitium, sordet natura sine gra<g ref="char:EOLhyphen"/>tia, sordet in con<g ref="char:EOLhyphen"/>spectu judicis quod fulget in conspectu ope<g ref="char:EOLhyphen"/>rantis.</note> command we must do it, and in honour to Christ, (as well as safety to our selves) we must re<g ref="char:EOLhyphen"/>nounce all confidence in it, do it because Christ, without it, will not save us, place no confidence in it, because that without him cannot; to his Spirit we must look for assistance to duty, and to his merit, for the acceptance of it, without that we can do nothing, and without this if we could do any thing, it would not be ac<g ref="char:EOLhyphen"/>cepted, for our confessions of sin
+<pb n="117" facs="tcp:31160:69"/> need confessing, they as well as our other sins, need pardon, our tears need washing, and our most holy offering, a sacrifice.</p>
+                  <p rend="italic indent">The Cherubims that are pure Crea<g ref="char:EOLhyphen"/>tures, <note place="margin">John 15. 5.</note> look towards a Mercy-Seat and therefore, well may we who have so much impurity in us.</p>
+                  <p>Christ the Lord of Glory be<g ref="char:EOLhyphen"/>came a servant for us, that of Slaves we might become servants, <hi>(viz.</hi> of Slaves to sin, Servants of Righteousness,) it was along and a hard service that he under<g ref="char:EOLhyphen"/>went, and a dear price (far more worth then our service) that he paid forit, no slavery like that, no price like this, nor should any service be like ours, that we return to him for it.</p>
+                  <p>Let us then show that he is our Lord, by our obedience to him, and that we are his faithful ser<g ref="char:EOLhyphen"/>vants by the duty we perform to him, <hi>viz.</hi> a sincere, chearful, uni<g ref="char:EOLhyphen"/>versal
+<pb n="118" facs="tcp:31160:70"/> and perpetual, not only living but dying his servants, to this equity obliges and no less our interest, for in serving him we serve our selves.</p>
+                  <p rend="italic indent">In all his service, there is more of wages, then of work.</p>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:31160:70"/>
+            <head>Books lately Printed for <hi>Tho. Parkhurst,</hi> at the <hi>Bible</hi> and <hi>Three Crowns</hi> in <hi>Cheapside,</hi> near <hi>Mercers-Chappel.</hi>
+            </head>
+            <p>A Hundred Select Sermons, by <hi>Tho. Hor<g ref="char:EOLhyphen"/>ton,</hi> D. D.</p>
+            <p>Meditations upon our Saviour Parable of the Prodigal Son, being several Sermons, on the 15th. chap. of St. <hi>Luke,</hi> in II. Parts, by <hi>Obadiah Grew,</hi> D. D.</p>
+            <p>Sermons of Grace and Temptation, by <hi>Tho. Froysell,</hi> 4 to.</p>
+            <p>Baptismal Bonds Renewed, being some Meditations upon <hi>Psal.</hi> 50. 5.</p>
+            <p>Closet Prayer: A Christian Duty, or a Treatise upon <hi>Matth.</hi> 6. 6. both by <hi>Oliver Heywood</hi> Minister of the Gospel. In <hi>Octavo.</hi>
+            </p>
+            <p n="1">1. The Conversion of the Soul, or a Dis<g ref="char:EOLhyphen"/>course explaining the Nature of that Con<g ref="char:EOLhyphen"/>version which is sincere, and directing and perswading all to cease their loving Sin and Death, and to turn to God and Live, In <hi>Octavo.</hi>
+            </p>
+            <p n="2">2. Touchstone of Grace and Nature, with Meditations on the Sacrament of the Lords Supper.</p>
+            <p n="3">3. A Discourse of Conscience, good or bad wherein there is Heaven or Hell on Earth.</p>
+            <p n="4">
+               <pb facs="tcp:31160:71"/>4. The Spirit of Prayer.</p>
+            <p n="5">5. The Excellent way of Love among Christians. All five by <hi>Nath. Vincent</hi> Minister of the Gospel.</p>
+            <p>
+               <hi>Bartons</hi> Psalms last Edition enlarged.</p>
+            <p>Psalms compared with the Original Text, with 26 Non-conformist Ministers to it.</p>
+            <p>The Grand Charter granted by Jesus Christ, from <hi>Matth.</hi> 28. 18, 19, 20. by <hi>George Lawson.</hi>
+            </p>
+            <p>Mr. <hi>Tho. Vincents</hi> Catechism.</p>
+            <p>Principles of the Doctrine of Christ with their applications in order to Practice, by <hi>Nich. Bifield.</hi>
+            </p>
+            <p>A brief Memorial of the Bible, or a Sum<g ref="char:EOLhyphen"/>mary of the chief Mottoes contained in every chapter of the Old and New Testament done into Metre for the help of memory, by <hi>J. C.</hi> M. A. In <hi>Octavo</hi> stitcht.</p>
+            <p>A Present to be given to Teeming Women by their Husbands or Friends, containing Scripture Directions for Women with Child, how to prepare for the Hour of Travel, by <hi>John Oliver,</hi> Minister of the Gospel, in <hi>Octavo.</hi>
+            </p>
+            <p>The difference between the Spots of the Godly and the Wicked, by Mr. <hi>Jeremiah Burroughs</hi> of <hi>Cripplegate.</hi>
+            </p>
+            <pb facs="tcp:31160:71"/>
+         </div>
+      </back>
+   </text>
+</TEI>
